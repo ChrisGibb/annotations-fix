@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.net.wifi.ScanResult channelWidth">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.ScanResult.CHANNEL_WIDTH_20MHZ, android.net.wifi.ScanResult.CHANNEL_WIDTH_40MHZ, android.net.wifi.ScanResult.CHANNEL_WIDTH_80MHZ, android.net.wifi.ScanResult.CHANNEL_WIDTH_160MHZ, android.net.wifi.ScanResult.CHANNEL_WIDTH_80MHZ_PLUS_MHZ}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.ScanResult int getWifiStandard()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.ScanResult.WIFI_STANDARD_UNKNOWN, android.net.wifi.ScanResult.WIFI_STANDARD_LEGACY, android.net.wifi.ScanResult.WIFI_STANDARD_11N, android.net.wifi.ScanResult.WIFI_STANDARD_11AC, android.net.wifi.ScanResult.WIFI_STANDARD_11AX}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.SoftApConfiguration int getSecurityType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.SoftApConfiguration.SECURITY_TYPE_OPEN, android.net.wifi.SoftApConfiguration.SECURITY_TYPE_WPA2_PSK, android.net.wifi.SoftApConfiguration.SECURITY_TYPE_WPA3_SAE_TRANSITION, android.net.wifi.SoftApConfiguration.SECURITY_TYPE_WPA3_SAE}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiConfiguration void setSecurityParams(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.WifiConfiguration.SECURITY_TYPE_OPEN, android.net.wifi.WifiConfiguration.SECURITY_TYPE_WEP, android.net.wifi.WifiConfiguration.SECURITY_TYPE_PSK, android.net.wifi.WifiConfiguration.SECURITY_TYPE_EAP, android.net.wifi.WifiConfiguration.SECURITY_TYPE_SAE, android.net.wifi.WifiConfiguration.SECURITY_TYPE_EAP_SUITE_B, android.net.wifi.WifiConfiguration.SECURITY_TYPE_OWE, android.net.wifi.WifiConfiguration.SECURITY_TYPE_WAPI_PSK, android.net.wifi.WifiConfiguration.SECURITY_TYPE_WAPI_CERT}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiInfo int getRxLinkSpeedMbps()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="-1" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiInfo int getTxLinkSpeedMbps()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="-1" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiInfo int getWifiStandard()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.ScanResult.WIFI_STANDARD_UNKNOWN, android.net.wifi.ScanResult.WIFI_STANDARD_LEGACY, android.net.wifi.ScanResult.WIFI_STANDARD_11N, android.net.wifi.ScanResult.WIFI_STANDARD_11AC, android.net.wifi.ScanResult.WIFI_STANDARD_11AX}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager boolean isAutoWakeupEnabled()">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_WIFI_STATE&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager boolean isScanThrottleEnabled()">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_WIFI_STATE&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager boolean isWifiStandardSupported(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.ScanResult.WIFI_STANDARD_UNKNOWN, android.net.wifi.ScanResult.WIFI_STANDARD_LEGACY, android.net.wifi.ScanResult.WIFI_STANDARD_11N, android.net.wifi.ScanResult.WIFI_STANDARD_11AC, android.net.wifi.ScanResult.WIFI_STANDARD_11AX}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager int addNetworkSuggestions(java.util.List<android.net.wifi.WifiNetworkSuggestion>)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.CHANGE_WIFI_STATE&quot;" />
+    </annotation>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_SUCCESS, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_INTERNAL, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_APP_DISALLOWED, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_DUPLICATE, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_EXCEEDS_MAX_PER_APP, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_REMOVE_INVALID, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_NOT_ALLOWED, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_INVALID}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager int calculateSignalLevel(int)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager int getMaxSignalLevel()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager int removeNetworkSuggestions(java.util.List<android.net.wifi.WifiNetworkSuggestion>)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.CHANGE_WIFI_STATE&quot;" />
+    </annotation>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_SUCCESS, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_INTERNAL, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_APP_DISALLOWED, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_DUPLICATE, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_EXCEEDS_MAX_PER_APP, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_REMOVE_INVALID, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_NOT_ALLOWED, android.net.wifi.WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_INVALID}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager java.util.List&lt;android.net.wifi.WifiConfiguration&gt; getConfiguredNetworks()">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="allOf" val="{&quot;android.permission.ACCESS_FINE_LOCATION&quot;, &quot;android.permission.ACCESS_WIFI_STATE&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager java.util.List&lt;android.net.wifi.WifiNetworkSuggestion&gt; getNetworkSuggestions()">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_WIFI_STATE&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager java.util.List&lt;android.net.wifi.hotspot2.PasspointConfiguration&gt; getPasspointConfigurations()">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.NETWORK_SETTINGS&quot;, &quot;android.permission.NETWORK_SETUP_WIZARD&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager void addSuggestionConnectionStatusListener(java.util.concurrent.Executor, android.net.wifi.WifiManager.SuggestionConnectionStatusListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="allOf" val="{&quot;android.permission.ACCESS_FINE_LOCATION&quot;, &quot;android.permission.ACCESS_WIFI_STATE&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager void registerScanResultsCallback(java.util.concurrent.Executor, android.net.wifi.WifiManager.ScanResultsCallback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_WIFI_STATE&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager void removePasspointConfiguration(java.lang.String)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.NETWORK_SETTINGS&quot;, &quot;android.permission.NETWORK_CARRIER_PROVISIONING&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager void removeSuggestionConnectionStatusListener(android.net.wifi.WifiManager.SuggestionConnectionStatusListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_WIFI_STATE&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager void startLocalOnlyHotspot(android.net.wifi.WifiManager.LocalOnlyHotspotCallback, android.os.Handler)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="allOf" val="{&quot;android.permission.CHANGE_WIFI_STATE&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager void unregisterScanResultsCallback(android.net.wifi.WifiManager.ScanResultsCallback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_WIFI_STATE&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiManager.SuggestionConnectionStatusListener void onConnectionStatus(android.net.wifi.WifiNetworkSuggestion, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.WifiManager.STATUS_SUGGESTION_CONNECTION_FAILURE_UNKNOWN, android.net.wifi.WifiManager.STATUS_SUGGESTION_CONNECTION_FAILURE_ASSOCIATION, android.net.wifi.WifiManager.STATUS_SUGGESTION_CONNECTION_FAILURE_AUTHENTICATION, android.net.wifi.WifiManager.STATUS_SUGGESTION_CONNECTION_FAILURE_IP_PROVISIONING}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiNetworkSuggestion int getPriority()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.WifiNetworkSuggestion.Builder android.net.wifi.WifiNetworkSuggestion.Builder setPriority(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+</root>
+

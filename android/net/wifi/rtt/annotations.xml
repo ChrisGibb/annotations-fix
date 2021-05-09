@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.net.wifi.rtt.RangingResult int getStatus()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.rtt.RangingResult.STATUS_SUCCESS, android.net.wifi.rtt.RangingResult.STATUS_FAIL, android.net.wifi.rtt.RangingResult.STATUS_RESPONDER_DOES_NOT_SUPPORT_IEEE80211MC}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.rtt.RangingResultCallback void onRangingFailure(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.rtt.RangingResultCallback.STATUS_CODE_FAIL, android.net.wifi.rtt.RangingResultCallback.STATUS_CODE_FAIL_RTT_NOT_AVAILABLE}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.rtt.ResponderLocation int getAltitudeType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.rtt.ResponderLocation.ALTITUDE_UNDEFINED, android.net.wifi.rtt.ResponderLocation.ALTITUDE_METERS, android.net.wifi.rtt.ResponderLocation.ALTITUDE_FLOORS}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.rtt.ResponderLocation int getDatum()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.rtt.ResponderLocation.DATUM_UNDEFINED, android.net.wifi.rtt.ResponderLocation.DATUM_WGS84, android.net.wifi.rtt.ResponderLocation.DATUM_NAD83_NAV88, android.net.wifi.rtt.ResponderLocation.DATUM_NAD83_MLLW}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.rtt.ResponderLocation int getExpectedToMove()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.rtt.ResponderLocation.LOCATION_FIXED, android.net.wifi.rtt.ResponderLocation.LOCATION_VARIABLE, android.net.wifi.rtt.ResponderLocation.LOCATION_MOVEMENT_UNKNOWN, android.net.wifi.rtt.ResponderLocation.LOCATION_RESERVED}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.rtt.WifiRttManager void startRanging(android.net.wifi.rtt.RangingRequest, java.util.concurrent.Executor, android.net.wifi.rtt.RangingResultCallback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="allOf" val="{&quot;android.permission.ACCESS_FINE_LOCATION&quot;, &quot;android.permission.CHANGE_WIFI_STATE&quot;, &quot;android.permission.ACCESS_WIFI_STATE&quot;}" />
+    </annotation>
+  </item>
+</root>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.animation.AnimatorInflater android.animation.Animator loadAnimator(android.content.Context, int) 1">
+    <annotation name="androidx.annotation.AnimatorRes"/>
+  </item>
+  <item name="android.animation.ValueAnimator int getRepeatMode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.animation.ValueAnimator.RESTART, android.animation.ValueAnimator.REVERSE}" />
+    </annotation>
+  </item>
+  <item name="android.animation.ValueAnimator void setRepeatMode(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.animation.ValueAnimator.RESTART, android.animation.ValueAnimator.REVERSE}" />
+    </annotation>
+  </item>
+</root>
+

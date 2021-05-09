@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.telephony.euicc.EuiccManager void deleteSubscription(int, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS&quot;" />
+    </annotation>
+  </item>
+  <item name="android.telephony.euicc.EuiccManager void downloadSubscription(android.telephony.euicc.DownloadableSubscription, boolean, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS&quot;" />
+    </annotation>
+  </item>
+  <item name="android.telephony.euicc.EuiccManager void switchToSubscription(int, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS&quot;" />
+    </annotation>
+  </item>
+  <item name="android.telephony.euicc.EuiccManager void updateSubscriptionNickname(int, java.lang.String, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS&quot;" />
+    </annotation>
+  </item>
+</root>
+

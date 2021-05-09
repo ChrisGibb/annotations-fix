@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.content.pm.ActivityInfo colorMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ActivityInfo.COLOR_MODE_DEFAULT, android.content.pm.ActivityInfo.COLOR_MODE_WIDE_COLOR_GAMUT, android.content.pm.ActivityInfo.COLOR_MODE_HDR}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ActivityInfo screenOrientation">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_USER, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_BEHIND, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_SENSOR, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_NOSENSOR, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_FULL_SENSOR, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_FULL_USER, android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LOCKED}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ActivityInfo softInputMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_UNSPECIFIED, android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_UNCHANGED, android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN, android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN, android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE, android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE, android.view.WindowManager.LayoutParams.SOFT_INPUT_ADJUST_UNSPECIFIED, android.view.WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE, android.view.WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN, android.view.WindowManager.LayoutParams.SOFT_INPUT_ADJUST_NOTHING, android.view.WindowManager.LayoutParams.SOFT_INPUT_IS_FORWARD_NAVIGATION}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ApplicationInfo category">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ApplicationInfo.CATEGORY_UNDEFINED, android.content.pm.ApplicationInfo.CATEGORY_GAME, android.content.pm.ApplicationInfo.CATEGORY_AUDIO, android.content.pm.ApplicationInfo.CATEGORY_VIDEO, android.content.pm.ApplicationInfo.CATEGORY_IMAGE, android.content.pm.ApplicationInfo.CATEGORY_SOCIAL, android.content.pm.ApplicationInfo.CATEGORY_NEWS, android.content.pm.ApplicationInfo.CATEGORY_MAPS, android.content.pm.ApplicationInfo.CATEGORY_PRODUCTIVITY}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ApplicationInfo int getGwpAsanMode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ApplicationInfo.GWP_ASAN_DEFAULT, android.content.pm.ApplicationInfo.GWP_ASAN_NEVER, android.content.pm.ApplicationInfo.GWP_ASAN_ALWAYS}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ApplicationInfo int getMemtagMode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ApplicationInfo.MEMTAG_DEFAULT, android.content.pm.ApplicationInfo.MEMTAG_OFF, android.content.pm.ApplicationInfo.MEMTAG_ASYNC, android.content.pm.ApplicationInfo.MEMTAG_SYNC}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ApplicationInfo java.lang.CharSequence getCategoryTitle(android.content.Context, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ApplicationInfo.CATEGORY_UNDEFINED, android.content.pm.ApplicationInfo.CATEGORY_GAME, android.content.pm.ApplicationInfo.CATEGORY_AUDIO, android.content.pm.ApplicationInfo.CATEGORY_VIDEO, android.content.pm.ApplicationInfo.CATEGORY_IMAGE, android.content.pm.ApplicationInfo.CATEGORY_SOCIAL, android.content.pm.ApplicationInfo.CATEGORY_NEWS, android.content.pm.ApplicationInfo.CATEGORY_MAPS, android.content.pm.ApplicationInfo.CATEGORY_PRODUCTIVITY}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.CrossProfileApps void startActivity(android.content.Intent, android.os.UserHandle, android.app.Activity)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.INTERACT_ACROSS_PROFILES&quot;, &quot;android.permission.INTERACT_ACROSS_USERS&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.CrossProfileApps void startActivity(android.content.Intent, android.os.UserHandle, android.app.Activity, android.os.Bundle)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.INTERACT_ACROSS_PROFILES&quot;, &quot;android.permission.INTERACT_ACROSS_USERS&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.LauncherApps android.content.pm.ApplicationInfo getApplicationInfo(java.lang.String, int, android.os.UserHandle) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_APEX}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.LauncherApps.PinItemRequest int getRequestType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.LauncherApps.PinItemRequest.REQUEST_TYPE_SHORTCUT, android.content.pm.LauncherApps.PinItemRequest.REQUEST_TYPE_APPWIDGET}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.LauncherApps.ShortcutQuery android.content.pm.LauncherApps.ShortcutQuery setQueryFlags(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.LauncherApps.ShortcutQuery.FLAG_MATCH_DYNAMIC, android.content.pm.LauncherApps.ShortcutQuery.FLAG_MATCH_PINNED, android.content.pm.LauncherApps.ShortcutQuery.FLAG_MATCH_MANIFEST, android.content.pm.LauncherApps.ShortcutQuery.FLAG_MATCH_CACHED, android.content.pm.LauncherApps.ShortcutQuery.FLAG_GET_KEY_FIELDS_ONLY}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller void installExistingPackage(java.lang.String, int, android.content.IntentSender)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="allOf" val="{&quot;android.permission.INSTALL_PACKAGES&quot;, &quot;com.android.permission.INSTALL_EXISTING_PACKAGES&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller void installExistingPackage(java.lang.String, int, android.content.IntentSender) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.INSTALL_REASON_UNKNOWN, android.content.pm.PackageManager.INSTALL_REASON_POLICY, android.content.pm.PackageManager.INSTALL_REASON_DEVICE_RESTORE, android.content.pm.PackageManager.INSTALL_REASON_DEVICE_SETUP, android.content.pm.PackageManager.INSTALL_REASON_USER}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller void uninstall(android.content.pm.VersionedPackage, android.content.IntentSender)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.DELETE_PACKAGES&quot;, &quot;android.permission.REQUEST_DELETE_PACKAGES&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller void uninstall(java.lang.String, android.content.IntentSender)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.DELETE_PACKAGES&quot;, &quot;android.permission.REQUEST_DELETE_PACKAGES&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller.SessionInfo int getInstallReason()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.INSTALL_REASON_UNKNOWN, android.content.pm.PackageManager.INSTALL_REASON_POLICY, android.content.pm.PackageManager.INSTALL_REASON_DEVICE_RESTORE, android.content.pm.PackageManager.INSTALL_REASON_DEVICE_SETUP, android.content.pm.PackageManager.INSTALL_REASON_USER}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller.SessionInfo int getStagedSessionErrorCode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageInstaller.SessionInfo.STAGED_SESSION_NO_ERROR, android.content.pm.PackageInstaller.SessionInfo.STAGED_SESSION_VERIFICATION_FAILED, android.content.pm.PackageInstaller.SessionInfo.STAGED_SESSION_ACTIVATION_FAILED, android.content.pm.PackageInstaller.SessionInfo.STAGED_SESSION_UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller.SessionParams void setInstallReason(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.INSTALL_REASON_UNKNOWN, android.content.pm.PackageManager.INSTALL_REASON_POLICY, android.content.pm.PackageManager.INSTALL_REASON_DEVICE_RESTORE, android.content.pm.PackageManager.INSTALL_REASON_DEVICE_SETUP, android.content.pm.PackageManager.INSTALL_REASON_USER}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageInstaller.SessionParams void setInstallScenario(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.INSTALL_SCENARIO_DEFAULT, android.content.pm.PackageManager.INSTALL_SCENARIO_FAST, android.content.pm.PackageManager.INSTALL_SCENARIO_BULK, android.content.pm.PackageManager.INSTALL_SCENARIO_BULK_SECONDARY}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ActivityInfo getActivityInfo(android.content.ComponentName, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ActivityInfo getReceiverInfo(android.content.ComponentName, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ApplicationInfo getApplicationInfo(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_APEX}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ChangedPackages getChangedPackages(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.InstrumentationInfo getInstrumentationInfo(android.content.ComponentName, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ModuleInfo getModuleInfo(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.PackageInfo getPackageArchiveInfo(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.PackageInfo getPackageInfo(android.content.pm.VersionedPackage, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.PackageInfo getPackageInfo(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.PermissionGroupInfo getPermissionGroupInfo(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.PermissionInfo getPermissionInfo(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ProviderInfo getProviderInfo(android.content.ComponentName, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ProviderInfo resolveContentProvider(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ResolveInfo resolveActivity(android.content.Intent, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_RESOLVED_FILTER, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ResolveInfo resolveService(android.content.Intent, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_RESOLVED_FILTER, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.pm.ServiceInfo getServiceInfo(android.content.ComponentName, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager android.content.res.XmlResourceParser getXml(java.lang.String, int, android.content.pm.ApplicationInfo) 1">
+    <annotation name="androidx.annotation.XmlRes"/>
+  </item>
+  <item name="android.content.pm.PackageManager android.graphics.drawable.Drawable getDrawable(java.lang.String, int, android.content.pm.ApplicationInfo) 1">
+    <annotation name="androidx.annotation.DrawableRes"/>
+  </item>
+  <item name="android.content.pm.PackageManager boolean addWhitelistedRestrictedPermission(java.lang.String, java.lang.String, int)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WHITELIST_RESTRICTED_PERMISSIONS&quot;" />
+      <val name="conditional" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager boolean addWhitelistedRestrictedPermission(java.lang.String, java.lang.String, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_SYSTEM, android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_INSTALLER, android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_UPGRADE}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager boolean hasSigningCertificate(int, byte[], int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.CERT_INPUT_RAW_X509, android.content.pm.PackageManager.CERT_INPUT_SHA256}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager boolean hasSigningCertificate(java.lang.String, byte[], int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.CERT_INPUT_RAW_X509, android.content.pm.PackageManager.CERT_INPUT_SHA256}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager boolean isAutoRevokeWhitelisted(java.lang.String)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WHITELIST_AUTO_REVOKE_PERMISSIONS&quot;" />
+      <val name="conditional" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager boolean isPermissionRevokedByPolicy(java.lang.String, java.lang.String)">
+    <annotation name="androidx.annotation.CheckResult"/>
+  </item>
+  <item name="android.content.pm.PackageManager boolean removeWhitelistedRestrictedPermission(java.lang.String, java.lang.String, int)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WHITELIST_RESTRICTED_PERMISSIONS&quot;" />
+      <val name="conditional" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager boolean removeWhitelistedRestrictedPermission(java.lang.String, java.lang.String, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_SYSTEM, android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_INSTALLER, android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_UPGRADE}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager boolean setAutoRevokeWhitelisted(java.lang.String, boolean)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WHITELIST_AUTO_REVOKE_PERMISSIONS&quot;" />
+      <val name="conditional" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int checkPermission(java.lang.String, java.lang.String)">
+    <annotation name="androidx.annotation.CheckResult"/>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.PERMISSION_GRANTED, android.content.pm.PackageManager.PERMISSION_DENIED}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int checkSignatures(int, int)">
+    <annotation name="androidx.annotation.CheckResult"/>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.SIGNATURE_MATCH, android.content.pm.PackageManager.SIGNATURE_NEITHER_SIGNED, android.content.pm.PackageManager.SIGNATURE_FIRST_NOT_SIGNED, android.content.pm.PackageManager.SIGNATURE_SECOND_NOT_SIGNED, android.content.pm.PackageManager.SIGNATURE_NO_MATCH, android.content.pm.PackageManager.SIGNATURE_UNKNOWN_PACKAGE}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int checkSignatures(java.lang.String, java.lang.String)">
+    <annotation name="androidx.annotation.CheckResult"/>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.SIGNATURE_MATCH, android.content.pm.PackageManager.SIGNATURE_NEITHER_SIGNED, android.content.pm.PackageManager.SIGNATURE_FIRST_NOT_SIGNED, android.content.pm.PackageManager.SIGNATURE_SECOND_NOT_SIGNED, android.content.pm.PackageManager.SIGNATURE_NO_MATCH, android.content.pm.PackageManager.SIGNATURE_UNKNOWN_PACKAGE}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int getApplicationEnabledSetting(java.lang.String)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_UNTIL_USED}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int getComponentEnabledSetting(android.content.ComponentName)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_UNTIL_USED}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int getPackageUid(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int getTargetSdkVersion(java.lang.String)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager int[] getPackageGids(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.lang.CharSequence getText(java.lang.String, int, android.content.pm.ApplicationInfo) 1">
+    <annotation name="androidx.annotation.StringRes"/>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ApplicationInfo&gt; getInstalledApplications(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_APEX}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.InstrumentationInfo&gt; queryInstrumentation(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ModuleInfo&gt; getInstalledModules(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.MATCH_ALL}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.PackageInfo&gt; getInstalledPackages(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.PackageInfo&gt; getPackagesHoldingPermissions(java.lang.String[], int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.PackageInfo&gt; getPreferredPackages(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_ACTIVITIES, android.content.pm.PackageManager.GET_CONFIGURATIONS, android.content.pm.PackageManager.GET_GIDS, android.content.pm.PackageManager.GET_INSTRUMENTATION, android.content.pm.PackageManager.GET_INTENT_FILTERS, android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_PERMISSIONS, android.content.pm.PackageManager.GET_PROVIDERS, android.content.pm.PackageManager.GET_RECEIVERS, android.content.pm.PackageManager.GET_SERVICES, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.GET_SIGNATURES, android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES, android.content.pm.PackageManager.GET_URI_PERMISSION_PATTERNS, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_APEX, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.PermissionGroupInfo&gt; getAllPermissionGroups(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.PermissionInfo&gt; queryPermissionsByGroup(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ProviderInfo&gt; queryContentProviders(java.lang.String, int, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ResolveInfo&gt; queryBroadcastReceivers(android.content.Intent, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_RESOLVED_FILTER, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ResolveInfo&gt; queryIntentActivities(android.content.Intent, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_RESOLVED_FILTER, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ResolveInfo&gt; queryIntentActivityOptions(android.content.ComponentName, android.content.Intent[], android.content.Intent, int) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_RESOLVED_FILTER, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ResolveInfo&gt; queryIntentContentProviders(android.content.Intent, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_RESOLVED_FILTER, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.ResolveInfo&gt; queryIntentServices(android.content.Intent, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.GET_META_DATA, android.content.pm.PackageManager.GET_RESOLVED_FILTER, android.content.pm.PackageManager.GET_SHARED_LIBRARY_FILES, android.content.pm.PackageManager.MATCH_ALL, android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS, android.content.pm.PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AUTO, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE, android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE, android.content.pm.PackageManager.MATCH_SYSTEM_ONLY, android.content.pm.PackageManager.MATCH_UNINSTALLED_PACKAGES, android.content.pm.PackageManager.GET_DISABLED_COMPONENTS, android.content.pm.PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, android.content.pm.PackageManager.GET_UNINSTALLED_PACKAGES}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.List&lt;android.content.pm.SharedLibraryInfo&gt; getSharedLibraries(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.Set&lt;java.lang.String&gt; getWhitelistedRestrictedPermissions(java.lang.String, int)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.WHITELIST_RESTRICTED_PERMISSIONS&quot;" />
+      <val name="conditional" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager java.util.Set&lt;java.lang.String&gt; getWhitelistedRestrictedPermissions(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_SYSTEM, android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_INSTALLER, android.content.pm.PackageManager.FLAG_PERMISSION_WHITELIST_UPGRADE}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager void setApplicationCategoryHint(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ApplicationInfo.CATEGORY_UNDEFINED, android.content.pm.ApplicationInfo.CATEGORY_GAME, android.content.pm.ApplicationInfo.CATEGORY_AUDIO, android.content.pm.ApplicationInfo.CATEGORY_VIDEO, android.content.pm.ApplicationInfo.CATEGORY_IMAGE, android.content.pm.ApplicationInfo.CATEGORY_SOCIAL, android.content.pm.ApplicationInfo.CATEGORY_NEWS, android.content.pm.ApplicationInfo.CATEGORY_MAPS, android.content.pm.ApplicationInfo.CATEGORY_PRODUCTIVITY}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager void setApplicationEnabledSetting(java.lang.String, int, int)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.CHANGE_COMPONENT_ENABLED_STATE&quot;" />
+      <val name="conditional" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager void setApplicationEnabledSetting(java.lang.String, int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_UNTIL_USED}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager void setApplicationEnabledSetting(java.lang.String, int, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.DONT_KILL_APP, android.content.pm.PackageManager.SYNCHRONOUS}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager void setComponentEnabledSetting(android.content.ComponentName, int, int)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.CHANGE_COMPONENT_ENABLED_STATE&quot;" />
+      <val name="conditional" val="true" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager void setComponentEnabledSetting(android.content.ComponentName, int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER, android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED_UNTIL_USED}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PackageManager void setComponentEnabledSetting(android.content.ComponentName, int, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PackageManager.DONT_KILL_APP, android.content.pm.PackageManager.SYNCHRONOUS}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PermissionGroupInfo descriptionRes">
+    <annotation name="androidx.annotation.StringRes"/>
+  </item>
+  <item name="android.content.pm.PermissionGroupInfo flags">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PermissionGroupInfo.FLAG_PERSONAL_INFO}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PermissionInfo descriptionRes">
+    <annotation name="androidx.annotation.StringRes"/>
+  </item>
+  <item name="android.content.pm.PermissionInfo flags">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PermissionInfo.FLAG_COSTS_MONEY, android.content.pm.PermissionInfo.FLAG_HARD_RESTRICTED, android.content.pm.PermissionInfo.FLAG_SOFT_RESTRICTED, android.content.pm.PermissionInfo.FLAG_IMMUTABLY_RESTRICTED, android.content.pm.PermissionInfo.FLAG_INSTALLED}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PermissionInfo int getProtection()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="false" />
+      <val name="value" val="{android.content.pm.PermissionInfo.PROTECTION_NORMAL, android.content.pm.PermissionInfo.PROTECTION_DANGEROUS, android.content.pm.PermissionInfo.PROTECTION_SIGNATURE, android.content.pm.PermissionInfo.PROTECTION_SIGNATURE_OR_SYSTEM}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.PermissionInfo int getProtectionFlags()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.PermissionInfo.PROTECTION_FLAG_PRIVILEGED, android.content.pm.PermissionInfo.PROTECTION_FLAG_SYSTEM, android.content.pm.PermissionInfo.PROTECTION_FLAG_DEVELOPMENT, android.content.pm.PermissionInfo.PROTECTION_FLAG_APPOP, android.content.pm.PermissionInfo.PROTECTION_FLAG_PRE23, android.content.pm.PermissionInfo.PROTECTION_FLAG_INSTALLER, android.content.pm.PermissionInfo.PROTECTION_FLAG_VERIFIER, android.content.pm.PermissionInfo.PROTECTION_FLAG_PREINSTALLED, android.content.pm.PermissionInfo.PROTECTION_FLAG_SETUP, android.content.pm.PermissionInfo.PROTECTION_FLAG_INSTANT, android.content.pm.PermissionInfo.PROTECTION_FLAG_RUNTIME_ONLY}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ServiceInfo int getForegroundServiceType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_MANIFEST, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_NONE, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PLAYBACK, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_PHONE_CALL, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_CONNECTED_DEVICE, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_CAMERA, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.SharedLibraryInfo int getType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.SharedLibraryInfo.TYPE_BUILTIN, android.content.pm.SharedLibraryInfo.TYPE_DYNAMIC, android.content.pm.SharedLibraryInfo.TYPE_STATIC}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.SharedLibraryInfo int getVersion()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="-1" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.SharedLibraryInfo long getLongVersion()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="-1" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ShortcutInfo int getDisabledReason()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.content.pm.ShortcutInfo.DISABLED_REASON_NOT_DISABLED, android.content.pm.ShortcutInfo.DISABLED_REASON_BY_APP, android.content.pm.ShortcutInfo.DISABLED_REASON_APP_CHANGED, android.content.pm.ShortcutInfo.DISABLED_REASON_UNKNOWN, android.content.pm.ShortcutInfo.DISABLED_REASON_VERSION_LOWER, android.content.pm.ShortcutInfo.DISABLED_REASON_BACKUP_NOT_SUPPORTED, android.content.pm.ShortcutInfo.DISABLED_REASON_SIGNATURE_MISMATCH, android.content.pm.ShortcutInfo.DISABLED_REASON_OTHER_RESTORE_ISSUE}" />
+    </annotation>
+  </item>
+  <item name="android.content.pm.ShortcutManager java.util.List&lt;android.content.pm.ShortcutInfo&gt; getShortcuts(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.pm.ShortcutManager.FLAG_MATCH_MANIFEST, android.content.pm.ShortcutManager.FLAG_MATCH_DYNAMIC, android.content.pm.ShortcutManager.FLAG_MATCH_PINNED, android.content.pm.ShortcutManager.FLAG_MATCH_CACHED}" />
+    </annotation>
+  </item>
+</root>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.hardware.biometrics.BiometricManager int canAuthenticate()">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.USE_BIOMETRIC&quot;" />
+    </annotation>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.hardware.biometrics.BiometricManager.BIOMETRIC_SUCCESS, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_HW_UNAVAILABLE, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_NONE_ENROLLED, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_NO_HARDWARE, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_SECURITY_UPDATE_REQUIRED}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.biometrics.BiometricManager int canAuthenticate(int)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.USE_BIOMETRIC&quot;" />
+    </annotation>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.hardware.biometrics.BiometricManager.BIOMETRIC_SUCCESS, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_HW_UNAVAILABLE, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_NONE_ENROLLED, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_NO_HARDWARE, android.hardware.biometrics.BiometricManager.BIOMETRIC_ERROR_SECURITY_UPDATE_REQUIRED}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.biometrics.BiometricManager int canAuthenticate(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_STRONG, android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_WEAK, android.hardware.biometrics.BiometricManager.Authenticators.DEVICE_CREDENTIAL}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.biometrics.BiometricPrompt void authenticate(android.hardware.biometrics.BiometricPrompt.CryptoObject, android.os.CancellationSignal, java.util.concurrent.Executor, android.hardware.biometrics.BiometricPrompt.AuthenticationCallback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.USE_BIOMETRIC&quot;" />
+    </annotation>
+  </item>
+  <item name="android.hardware.biometrics.BiometricPrompt void authenticate(android.os.CancellationSignal, java.util.concurrent.Executor, android.hardware.biometrics.BiometricPrompt.AuthenticationCallback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.USE_BIOMETRIC&quot;" />
+    </annotation>
+  </item>
+  <item name="android.hardware.biometrics.BiometricPrompt.AuthenticationResult int getAuthenticationType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.hardware.biometrics.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_DEVICE_CREDENTIAL, android.hardware.biometrics.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_BIOMETRIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.biometrics.BiometricPrompt.Builder android.hardware.biometrics.BiometricPrompt.Builder setAllowedAuthenticators(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_STRONG, android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_WEAK, android.hardware.biometrics.BiometricManager.Authenticators.DEVICE_CREDENTIAL}" />
+    </annotation>
+  </item>
+</root>
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.net.wifi.p2p.WifiP2pConfig groupOwnerIntent">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+      <val name="to" val="15" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pConfig int getGroupOwnerBand()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="false" />
+      <val name="value" val="{android.net.wifi.p2p.WifiP2pConfig.GROUP_OWNER_BAND_AUTO, android.net.wifi.p2p.WifiP2pConfig.GROUP_OWNER_BAND_2GHZ, android.net.wifi.p2p.WifiP2pConfig.GROUP_OWNER_BAND_5GHZ}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pConfig.Builder android.net.wifi.p2p.WifiP2pConfig.Builder setGroupOperatingBand(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="false" />
+      <val name="value" val="{android.net.wifi.p2p.WifiP2pConfig.GROUP_OWNER_BAND_AUTO, android.net.wifi.p2p.WifiP2pConfig.GROUP_OWNER_BAND_2GHZ, android.net.wifi.p2p.WifiP2pConfig.GROUP_OWNER_BAND_5GHZ}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void addLocalService(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.nsd.WifiP2pServiceInfo, android.net.wifi.p2p.WifiP2pManager.ActionListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void connect(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pConfig, android.net.wifi.p2p.WifiP2pManager.ActionListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void createGroup(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pConfig, android.net.wifi.p2p.WifiP2pManager.ActionListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void createGroup(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pManager.ActionListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void discoverPeers(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pManager.ActionListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void discoverServices(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pManager.ActionListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void requestDeviceInfo(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pManager.DeviceInfoListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void requestGroupInfo(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pManager.GroupInfoListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager void requestPeers(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.WifiP2pManager.PeerListListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager.DiscoveryStateListener void onDiscoveryStateAvailable(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.p2p.WifiP2pManager.WIFI_P2P_DISCOVERY_STOPPED, android.net.wifi.p2p.WifiP2pManager.WIFI_P2P_DISCOVERY_STARTED}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pManager.P2pStateListener void onP2pStateAvailable(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.p2p.WifiP2pManager.WIFI_P2P_STATE_DISABLED, android.net.wifi.p2p.WifiP2pManager.WIFI_P2P_STATE_ENABLED}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pWfdInfo boolean setDeviceType(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_WFD_SOURCE, android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_PRIMARY_SINK, android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_SECONDARY_SINK, android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_SOURCE_OR_PRIMARY_SINK}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pWfdInfo int getDeviceType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_WFD_SOURCE, android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_PRIMARY_SINK, android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_SECONDARY_SINK, android.net.wifi.p2p.WifiP2pWfdInfo.DEVICE_TYPE_SOURCE_OR_PRIMARY_SINK}" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pWfdInfo void setControlPort(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.net.wifi.p2p.WifiP2pWfdInfo void setMaxThroughput(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+</root>
+

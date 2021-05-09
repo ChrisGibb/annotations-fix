@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.service.quickaccesswallet.WalletServiceEvent WalletServiceEvent(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.service.quickaccesswallet.WalletServiceEvent.TYPE_NFC_PAYMENT_STARTED}" />
+    </annotation>
+  </item>
+  <item name="android.service.quickaccesswallet.WalletServiceEvent int getEventType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.service.quickaccesswallet.WalletServiceEvent.TYPE_NFC_PAYMENT_STARTED}" />
+    </annotation>
+  </item>
+</root>
+

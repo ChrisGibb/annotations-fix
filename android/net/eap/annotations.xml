@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.net.eap.EapSessionConfig.Builder android.net.eap.EapSessionConfig.Builder setEapAkaConfig(int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.telephony.TelephonyManager.APPTYPE_SIM, android.telephony.TelephonyManager.APPTYPE_USIM, android.telephony.TelephonyManager.APPTYPE_RUIM, android.telephony.TelephonyManager.APPTYPE_CSIM, android.telephony.TelephonyManager.APPTYPE_ISIM}" />
+    </annotation>
+  </item>
+  <item name="android.net.eap.EapSessionConfig.Builder android.net.eap.EapSessionConfig.Builder setEapAkaPrimeConfig(int, int, java.lang.String, boolean) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.telephony.TelephonyManager.APPTYPE_SIM, android.telephony.TelephonyManager.APPTYPE_USIM, android.telephony.TelephonyManager.APPTYPE_RUIM, android.telephony.TelephonyManager.APPTYPE_CSIM, android.telephony.TelephonyManager.APPTYPE_ISIM}" />
+    </annotation>
+  </item>
+  <item name="android.net.eap.EapSessionConfig.Builder android.net.eap.EapSessionConfig.Builder setEapSimConfig(int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.telephony.TelephonyManager.APPTYPE_SIM, android.telephony.TelephonyManager.APPTYPE_USIM, android.telephony.TelephonyManager.APPTYPE_RUIM, android.telephony.TelephonyManager.APPTYPE_CSIM, android.telephony.TelephonyManager.APPTYPE_ISIM}" />
+    </annotation>
+  </item>
+</root>
+

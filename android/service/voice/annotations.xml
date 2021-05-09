@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.service.voice.AlwaysOnHotwordDetector android.service.voice.AlwaysOnHotwordDetector.ModelParamRange queryParameter(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.service.voice.AlwaysOnHotwordDetector.MODEL_PARAM_THRESHOLD_FACTOR}" />
+    </annotation>
+  </item>
+  <item name="android.service.voice.AlwaysOnHotwordDetector boolean startRecognition(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.service.voice.AlwaysOnHotwordDetector.RECOGNITION_FLAG_CAPTURE_TRIGGER_AUDIO, android.service.voice.AlwaysOnHotwordDetector.RECOGNITION_FLAG_ALLOW_MULTIPLE_TRIGGERS, android.service.voice.AlwaysOnHotwordDetector.RECOGNITION_FLAG_ENABLE_AUDIO_ECHO_CANCELLATION, android.service.voice.AlwaysOnHotwordDetector.RECOGNITION_FLAG_ENABLE_AUDIO_NOISE_SUPPRESSION}" />
+    </annotation>
+  </item>
+  <item name="android.service.voice.AlwaysOnHotwordDetector int getParameter(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.service.voice.AlwaysOnHotwordDetector.MODEL_PARAM_THRESHOLD_FACTOR}" />
+    </annotation>
+  </item>
+  <item name="android.service.voice.AlwaysOnHotwordDetector int getSupportedAudioCapabilities()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.service.voice.AlwaysOnHotwordDetector.AUDIO_CAPABILITY_ECHO_CANCELLATION, android.service.voice.AlwaysOnHotwordDetector.AUDIO_CAPABILITY_NOISE_SUPPRESSION}" />
+    </annotation>
+  </item>
+  <item name="android.service.voice.AlwaysOnHotwordDetector int getSupportedRecognitionModes()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.service.voice.AlwaysOnHotwordDetector.RECOGNITION_MODE_VOICE_TRIGGER, android.service.voice.AlwaysOnHotwordDetector.RECOGNITION_MODE_USER_IDENTIFICATION}" />
+    </annotation>
+  </item>
+  <item name="android.service.voice.AlwaysOnHotwordDetector int setParameter(int, int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.service.voice.AlwaysOnHotwordDetector.MODEL_PARAM_THRESHOLD_FACTOR}" />
+    </annotation>
+  </item>
+  <item name="android.service.voice.VoiceInteractionSession.AssistState int getCount()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.service.voice.VoiceInteractionSession.AssistState int getIndex()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="-1" />
+    </annotation>
+  </item>
+</root>
+

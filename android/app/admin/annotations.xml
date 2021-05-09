@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.app.admin.DelegatedAdminReceiver void onNetworkLogsAvailable(android.content.Context, android.content.Intent, long, int) 3">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DeviceAdminReceiver void onBugreportFailed(android.content.Context, android.content.Intent, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.DeviceAdminReceiver.BUGREPORT_FAILURE_FAILED_COMPLETING, android.app.admin.DeviceAdminReceiver.BUGREPORT_FAILURE_FILE_NO_LONGER_AVAILABLE}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DeviceAdminReceiver void onNetworkLogsAvailable(android.content.Context, android.content.Intent, long, int) 3">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager EXTRA_PASSWORD_COMPLEXITY">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.REQUEST_PASSWORD_COMPLEXITY&quot;" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager android.os.Bundle getApplicationRestrictions(android.content.ComponentName, java.lang.String)">
+    <annotation name="androidx.annotation.WorkerThread"/>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager android.os.UserHandle createAndManageUser(android.content.ComponentName, java.lang.String, android.content.ComponentName, android.os.PersistableBundle, int) 4">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.admin.DevicePolicyManager.SKIP_SETUP_WIZARD, android.app.admin.DevicePolicyManager.MAKE_USER_EPHEMERAL, android.app.admin.DevicePolicyManager.LEAVE_ALL_SYSTEM_APPS_ENABLED}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager android.security.AttestedKeyPair generateKeyPair(android.content.ComponentName, java.lang.String, android.security.keystore.KeyGenParameterSpec, int) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.admin.DevicePolicyManager.ID_TYPE_BASE_INFO, android.app.admin.DevicePolicyManager.ID_TYPE_SERIAL, android.app.admin.DevicePolicyManager.ID_TYPE_IMEI, android.app.admin.DevicePolicyManager.ID_TYPE_MEID, android.app.admin.DevicePolicyManager.ID_TYPE_INDIVIDUAL_ATTESTATION}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager boolean bindDeviceAdminServiceAsUser(android.content.ComponentName, android.content.Intent, android.content.ServiceConnection, int, android.os.UserHandle) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.content.Context.BIND_AUTO_CREATE, android.content.Context.BIND_DEBUG_UNBIND, android.content.Context.BIND_NOT_FOREGROUND, android.content.Context.BIND_ABOVE_CLIENT, android.content.Context.BIND_ALLOW_OOM_MANAGEMENT, android.content.Context.BIND_WAIVE_PRIORITY, android.content.Context.BIND_IMPORTANT, android.content.Context.BIND_ADJUST_WITH_ACTIVITY, android.content.Context.BIND_NOT_PERCEPTIBLE, android.content.Context.BIND_INCLUDE_CAPABILITIES}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager boolean setPermissionGrantState(android.content.ComponentName, java.lang.String, java.lang.String, int) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.DevicePolicyManager.PERMISSION_GRANT_STATE_DEFAULT, android.app.admin.DevicePolicyManager.PERMISSION_GRANT_STATE_GRANTED, android.app.admin.DevicePolicyManager.PERMISSION_GRANT_STATE_DENIED}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int getLockTaskFeatures(android.content.ComponentName)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_NONE, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_SYSTEM_INFO, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_NOTIFICATIONS, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_HOME, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_OVERVIEW, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_GLOBAL_ACTIONS, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_KEYGUARD, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_BLOCK_ACTIVITY_START_IN_TASK}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int getOrganizationColor(android.content.ComponentName)">
+    <annotation name="androidx.annotation.ColorInt"/>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int getPasswordComplexity()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_NONE, android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_LOW, android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_MEDIUM, android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_HIGH}" />
+    </annotation>
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.REQUEST_PASSWORD_COMPLEXITY&quot;" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int getPermissionGrantState(android.content.ComponentName, java.lang.String, java.lang.String)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.DevicePolicyManager.PERMISSION_GRANT_STATE_DEFAULT, android.app.admin.DevicePolicyManager.PERMISSION_GRANT_STATE_GRANTED, android.app.admin.DevicePolicyManager.PERMISSION_GRANT_STATE_DENIED}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int getPersonalAppsSuspendedReasons(android.content.ComponentName)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.admin.DevicePolicyManager.PERSONAL_APPS_NOT_SUSPENDED, android.app.admin.DevicePolicyManager.PERSONAL_APPS_SUSPENDED_EXPLICITLY, android.app.admin.DevicePolicyManager.PERSONAL_APPS_SUSPENDED_PROFILE_TIMEOUT}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int logoutUser(android.content.ComponentName)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.os.UserManager.USER_OPERATION_SUCCESS, android.os.UserManager.USER_OPERATION_ERROR_UNKNOWN, android.os.UserManager.USER_OPERATION_ERROR_MANAGED_PROFILE, android.os.UserManager.USER_OPERATION_ERROR_MAX_RUNNING_USERS, android.os.UserManager.USER_OPERATION_ERROR_CURRENT_USER, android.os.UserManager.USER_OPERATION_ERROR_LOW_STORAGE, android.os.UserManager.USER_OPERATION_ERROR_MAX_USERS}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int setGlobalPrivateDnsModeOpportunistic(android.content.ComponentName)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.DevicePolicyManager.PRIVATE_DNS_SET_NO_ERROR, android.app.admin.DevicePolicyManager.PRIVATE_DNS_SET_ERROR_HOST_NOT_SERVING, android.app.admin.DevicePolicyManager.PRIVATE_DNS_SET_ERROR_FAILURE_SETTING}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int setGlobalPrivateDnsModeSpecifiedHost(android.content.ComponentName, java.lang.String)">
+    <annotation name="androidx.annotation.WorkerThread"/>
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.DevicePolicyManager.PRIVATE_DNS_SET_NO_ERROR, android.app.admin.DevicePolicyManager.PRIVATE_DNS_SET_ERROR_HOST_NOT_SERVING, android.app.admin.DevicePolicyManager.PRIVATE_DNS_SET_ERROR_FAILURE_SETTING}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int startUserInBackground(android.content.ComponentName, android.os.UserHandle)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.os.UserManager.USER_OPERATION_SUCCESS, android.os.UserManager.USER_OPERATION_ERROR_UNKNOWN, android.os.UserManager.USER_OPERATION_ERROR_MANAGED_PROFILE, android.os.UserManager.USER_OPERATION_ERROR_MAX_RUNNING_USERS, android.os.UserManager.USER_OPERATION_ERROR_CURRENT_USER, android.os.UserManager.USER_OPERATION_ERROR_LOW_STORAGE, android.os.UserManager.USER_OPERATION_ERROR_MAX_USERS}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager int stopUser(android.content.ComponentName, android.os.UserHandle)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.os.UserManager.USER_OPERATION_SUCCESS, android.os.UserManager.USER_OPERATION_ERROR_UNKNOWN, android.os.UserManager.USER_OPERATION_ERROR_MANAGED_PROFILE, android.os.UserManager.USER_OPERATION_ERROR_MAX_RUNNING_USERS, android.os.UserManager.USER_OPERATION_ERROR_CURRENT_USER, android.os.UserManager.USER_OPERATION_ERROR_LOW_STORAGE, android.os.UserManager.USER_OPERATION_ERROR_MAX_USERS}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager void addUserRestriction(android.content.ComponentName, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{android.os.UserManager.DISALLOW_MODIFY_ACCOUNTS, android.os.UserManager.DISALLOW_CONFIG_WIFI, android.os.UserManager.DISALLOW_CONFIG_LOCALE, android.os.UserManager.DISALLOW_INSTALL_APPS, android.os.UserManager.DISALLOW_UNINSTALL_APPS, android.os.UserManager.DISALLOW_SHARE_LOCATION, android.os.UserManager.DISALLOW_AIRPLANE_MODE, android.os.UserManager.DISALLOW_CONFIG_BRIGHTNESS, android.os.UserManager.DISALLOW_AMBIENT_DISPLAY, android.os.UserManager.DISALLOW_CONFIG_SCREEN_TIMEOUT, android.os.UserManager.DISALLOW_INSTALL_UNKNOWN_SOURCES, android.os.UserManager.DISALLOW_INSTALL_UNKNOWN_SOURCES_GLOBALLY, android.os.UserManager.DISALLOW_CONFIG_BLUETOOTH, android.os.UserManager.DISALLOW_BLUETOOTH, android.os.UserManager.DISALLOW_BLUETOOTH_SHARING, android.os.UserManager.DISALLOW_USB_FILE_TRANSFER, android.os.UserManager.DISALLOW_CONFIG_CREDENTIALS, android.os.UserManager.DISALLOW_REMOVE_USER, android.os.UserManager.DISALLOW_REMOVE_MANAGED_PROFILE, android.os.UserManager.DISALLOW_DEBUGGING_FEATURES, android.os.UserManager.DISALLOW_CONFIG_VPN, android.os.UserManager.DISALLOW_CONFIG_LOCATION, android.os.UserManager.DISALLOW_CONFIG_DATE_TIME, android.os.UserManager.DISALLOW_CONFIG_TETHERING, android.os.UserManager.DISALLOW_NETWORK_RESET, android.os.UserManager.DISALLOW_FACTORY_RESET, android.os.UserManager.DISALLOW_ADD_USER, android.os.UserManager.DISALLOW_ADD_MANAGED_PROFILE, android.os.UserManager.ENSURE_VERIFY_APPS, android.os.UserManager.DISALLOW_CONFIG_CELL_BROADCASTS, android.os.UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS, android.os.UserManager.DISALLOW_APPS_CONTROL, android.os.UserManager.DISALLOW_MOUNT_PHYSICAL_MEDIA, android.os.UserManager.DISALLOW_UNMUTE_MICROPHONE, android.os.UserManager.DISALLOW_ADJUST_VOLUME, android.os.UserManager.DISALLOW_OUTGOING_CALLS, android.os.UserManager.DISALLOW_SMS, android.os.UserManager.DISALLOW_FUN, android.os.UserManager.DISALLOW_CREATE_WINDOWS, android.os.UserManager.DISALLOW_SYSTEM_ERROR_DIALOGS, android.os.UserManager.DISALLOW_CROSS_PROFILE_COPY_PASTE, android.os.UserManager.DISALLOW_OUTGOING_BEAM, android.os.UserManager.DISALLOW_SET_WALLPAPER, android.os.UserManager.DISALLOW_SAFE_BOOT, android.os.UserManager.DISALLOW_DATA_ROAMING, android.os.UserManager.DISALLOW_SET_USER_ICON, android.os.UserManager.DISALLOW_UNIFIED_PASSWORD, android.os.UserManager.ALLOW_PARENT_PROFILE_APP_LINKING, android.os.UserManager.DISALLOW_AUTOFILL, android.os.UserManager.DISALLOW_CONTENT_CAPTURE, android.os.UserManager.DISALLOW_CONTENT_SUGGESTIONS, android.os.UserManager.DISALLOW_USER_SWITCH, android.os.UserManager.DISALLOW_SHARE_INTO_MANAGED_PROFILE, android.os.UserManager.DISALLOW_PRINTING, android.os.UserManager.DISALLOW_CONFIG_PRIVATE_DNS, android.os.UserManager.KEY_RESTRICTIONS_PENDING}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager void clearUserRestriction(android.content.ComponentName, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{android.os.UserManager.DISALLOW_MODIFY_ACCOUNTS, android.os.UserManager.DISALLOW_CONFIG_WIFI, android.os.UserManager.DISALLOW_CONFIG_LOCALE, android.os.UserManager.DISALLOW_INSTALL_APPS, android.os.UserManager.DISALLOW_UNINSTALL_APPS, android.os.UserManager.DISALLOW_SHARE_LOCATION, android.os.UserManager.DISALLOW_AIRPLANE_MODE, android.os.UserManager.DISALLOW_CONFIG_BRIGHTNESS, android.os.UserManager.DISALLOW_AMBIENT_DISPLAY, android.os.UserManager.DISALLOW_CONFIG_SCREEN_TIMEOUT, android.os.UserManager.DISALLOW_INSTALL_UNKNOWN_SOURCES, android.os.UserManager.DISALLOW_INSTALL_UNKNOWN_SOURCES_GLOBALLY, android.os.UserManager.DISALLOW_CONFIG_BLUETOOTH, android.os.UserManager.DISALLOW_BLUETOOTH, android.os.UserManager.DISALLOW_BLUETOOTH_SHARING, android.os.UserManager.DISALLOW_USB_FILE_TRANSFER, android.os.UserManager.DISALLOW_CONFIG_CREDENTIALS, android.os.UserManager.DISALLOW_REMOVE_USER, android.os.UserManager.DISALLOW_REMOVE_MANAGED_PROFILE, android.os.UserManager.DISALLOW_DEBUGGING_FEATURES, android.os.UserManager.DISALLOW_CONFIG_VPN, android.os.UserManager.DISALLOW_CONFIG_LOCATION, android.os.UserManager.DISALLOW_CONFIG_DATE_TIME, android.os.UserManager.DISALLOW_CONFIG_TETHERING, android.os.UserManager.DISALLOW_NETWORK_RESET, android.os.UserManager.DISALLOW_FACTORY_RESET, android.os.UserManager.DISALLOW_ADD_USER, android.os.UserManager.DISALLOW_ADD_MANAGED_PROFILE, android.os.UserManager.ENSURE_VERIFY_APPS, android.os.UserManager.DISALLOW_CONFIG_CELL_BROADCASTS, android.os.UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS, android.os.UserManager.DISALLOW_APPS_CONTROL, android.os.UserManager.DISALLOW_MOUNT_PHYSICAL_MEDIA, android.os.UserManager.DISALLOW_UNMUTE_MICROPHONE, android.os.UserManager.DISALLOW_ADJUST_VOLUME, android.os.UserManager.DISALLOW_OUTGOING_CALLS, android.os.UserManager.DISALLOW_SMS, android.os.UserManager.DISALLOW_FUN, android.os.UserManager.DISALLOW_CREATE_WINDOWS, android.os.UserManager.DISALLOW_SYSTEM_ERROR_DIALOGS, android.os.UserManager.DISALLOW_CROSS_PROFILE_COPY_PASTE, android.os.UserManager.DISALLOW_OUTGOING_BEAM, android.os.UserManager.DISALLOW_SET_WALLPAPER, android.os.UserManager.DISALLOW_SAFE_BOOT, android.os.UserManager.DISALLOW_DATA_ROAMING, android.os.UserManager.DISALLOW_SET_USER_ICON, android.os.UserManager.DISALLOW_UNIFIED_PASSWORD, android.os.UserManager.ALLOW_PARENT_PROFILE_APP_LINKING, android.os.UserManager.DISALLOW_AUTOFILL, android.os.UserManager.DISALLOW_CONTENT_CAPTURE, android.os.UserManager.DISALLOW_CONTENT_SUGGESTIONS, android.os.UserManager.DISALLOW_USER_SWITCH, android.os.UserManager.DISALLOW_SHARE_INTO_MANAGED_PROFILE, android.os.UserManager.DISALLOW_PRINTING, android.os.UserManager.DISALLOW_CONFIG_PRIVATE_DNS, android.os.UserManager.KEY_RESTRICTIONS_PENDING}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager void lockNow(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.admin.DevicePolicyManager.FLAG_EVICT_CREDENTIAL_ENCRYPTION_KEY}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager void setApplicationRestrictions(android.content.ComponentName, java.lang.String, android.os.Bundle)">
+    <annotation name="androidx.annotation.WorkerThread"/>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager void setLockTaskFeatures(android.content.ComponentName, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_NONE, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_SYSTEM_INFO, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_NOTIFICATIONS, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_HOME, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_OVERVIEW, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_GLOBAL_ACTIONS, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_KEYGUARD, android.app.admin.DevicePolicyManager.LOCK_TASK_FEATURE_BLOCK_ACTIVITY_START_IN_TASK}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager void setSystemSetting(android.content.ComponentName, java.lang.String, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE, android.provider.Settings.System.SCREEN_BRIGHTNESS, android.provider.Settings.System.SCREEN_OFF_TIMEOUT}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.DevicePolicyManager.InstallSystemUpdateCallback void onInstallUpdateError(int, java.lang.String) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.DevicePolicyManager.InstallSystemUpdateCallback.UPDATE_ERROR_UNKNOWN, android.app.admin.DevicePolicyManager.InstallSystemUpdateCallback.UPDATE_ERROR_INCORRECT_OS_VERSION, android.app.admin.DevicePolicyManager.InstallSystemUpdateCallback.UPDATE_ERROR_UPDATE_FILE_INVALID, android.app.admin.DevicePolicyManager.InstallSystemUpdateCallback.UPDATE_ERROR_FILE_NOT_FOUND, android.app.admin.DevicePolicyManager.InstallSystemUpdateCallback.UPDATE_ERROR_BATTERY_LOW}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.SecurityLog.SecurityEvent int getLogLevel()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.SecurityLog.LEVEL_INFO, android.app.admin.SecurityLog.LEVEL_WARNING, android.app.admin.SecurityLog.LEVEL_ERROR}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.SecurityLog.SecurityEvent int getTag()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.SecurityLog.TAG_ADB_SHELL_INTERACTIVE, android.app.admin.SecurityLog.TAG_ADB_SHELL_CMD, android.app.admin.SecurityLog.TAG_SYNC_RECV_FILE, android.app.admin.SecurityLog.TAG_SYNC_SEND_FILE, android.app.admin.SecurityLog.TAG_APP_PROCESS_START, android.app.admin.SecurityLog.TAG_KEYGUARD_DISMISSED, android.app.admin.SecurityLog.TAG_KEYGUARD_DISMISS_AUTH_ATTEMPT, android.app.admin.SecurityLog.TAG_KEYGUARD_SECURED, android.app.admin.SecurityLog.TAG_OS_STARTUP, android.app.admin.SecurityLog.TAG_OS_SHUTDOWN, android.app.admin.SecurityLog.TAG_LOGGING_STARTED, android.app.admin.SecurityLog.TAG_LOGGING_STOPPED, android.app.admin.SecurityLog.TAG_MEDIA_MOUNT, android.app.admin.SecurityLog.TAG_MEDIA_UNMOUNT, android.app.admin.SecurityLog.TAG_LOG_BUFFER_SIZE_CRITICAL, android.app.admin.SecurityLog.TAG_PASSWORD_EXPIRATION_SET, android.app.admin.SecurityLog.TAG_PASSWORD_COMPLEXITY_SET, android.app.admin.SecurityLog.TAG_PASSWORD_HISTORY_LENGTH_SET, android.app.admin.SecurityLog.TAG_MAX_SCREEN_LOCK_TIMEOUT_SET, android.app.admin.SecurityLog.TAG_MAX_PASSWORD_ATTEMPTS_SET, android.app.admin.SecurityLog.TAG_KEYGUARD_DISABLED_FEATURES_SET, android.app.admin.SecurityLog.TAG_REMOTE_LOCK, android.app.admin.SecurityLog.TAG_USER_RESTRICTION_ADDED, android.app.admin.SecurityLog.TAG_USER_RESTRICTION_REMOVED, android.app.admin.SecurityLog.TAG_WIPE_FAILURE, android.app.admin.SecurityLog.TAG_KEY_GENERATED, android.app.admin.SecurityLog.TAG_KEY_IMPORT, android.app.admin.SecurityLog.TAG_KEY_DESTRUCTION, android.app.admin.SecurityLog.TAG_CERT_AUTHORITY_INSTALLED, android.app.admin.SecurityLog.TAG_CERT_AUTHORITY_REMOVED, android.app.admin.SecurityLog.TAG_CRYPTO_SELF_TEST_COMPLETED, android.app.admin.SecurityLog.TAG_KEY_INTEGRITY_VIOLATION, android.app.admin.SecurityLog.TAG_CERT_VALIDATION_FAILURE, android.app.admin.SecurityLog.TAG_CAMERA_POLICY_SET}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.SystemUpdateInfo int getSecurityPatchState()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.SystemUpdateInfo.SECURITY_PATCH_STATE_FALSE, android.app.admin.SystemUpdateInfo.SECURITY_PATCH_STATE_TRUE, android.app.admin.SystemUpdateInfo.SECURITY_PATCH_STATE_UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.SystemUpdatePolicy int getPolicyType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.SystemUpdatePolicy.TYPE_INSTALL_AUTOMATIC, android.app.admin.SystemUpdatePolicy.TYPE_INSTALL_WINDOWED, android.app.admin.SystemUpdatePolicy.TYPE_POSTPONE}" />
+    </annotation>
+  </item>
+  <item name="android.app.admin.SystemUpdatePolicy.ValidationFailedException int getErrorCode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.admin.SystemUpdatePolicy.ValidationFailedException.ERROR_DUPLICATE_OR_OVERLAP, android.app.admin.SystemUpdatePolicy.ValidationFailedException.ERROR_NEW_FREEZE_PERIOD_TOO_LONG, android.app.admin.SystemUpdatePolicy.ValidationFailedException.ERROR_NEW_FREEZE_PERIOD_TOO_CLOSE, android.app.admin.SystemUpdatePolicy.ValidationFailedException.ERROR_COMBINED_FREEZE_PERIOD_TOO_LONG, android.app.admin.SystemUpdatePolicy.ValidationFailedException.ERROR_COMBINED_FREEZE_PERIOD_TOO_CLOSE, android.app.admin.SystemUpdatePolicy.ValidationFailedException.ERROR_UNKNOWN}" />
+    </annotation>
+  </item>
+</root>
+

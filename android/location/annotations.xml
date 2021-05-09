@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.location.Criteria int getAccuracy()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_FINE, android.location.Criteria.ACCURACY_COARSE}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria int getBearingAccuracy()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria int getHorizontalAccuracy()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria int getPowerRequirement()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.POWER_LOW, android.location.Criteria.POWER_MEDIUM, android.location.Criteria.POWER_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria int getSpeedAccuracy()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria int getVerticalAccuracy()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria void setAccuracy(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_FINE, android.location.Criteria.ACCURACY_COARSE}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria void setBearingAccuracy(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria void setHorizontalAccuracy(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria void setPowerRequirement(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.POWER_LOW, android.location.Criteria.POWER_MEDIUM, android.location.Criteria.POWER_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria void setSpeedAccuracy(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.Criteria void setVerticalAccuracy(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.Criteria.NO_REQUIREMENT, android.location.Criteria.ACCURACY_LOW, android.location.Criteria.ACCURACY_MEDIUM, android.location.Criteria.ACCURACY_HIGH}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssAntennaInfo double getCarrierFrequencyMHz()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssAntennaInfo.Builder android.location.GnssAntennaInfo.Builder setCarrierFrequencyMHz(double) 0">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssAntennaInfo.PhaseCenterOffset double getXOffsetMm()">
+    <annotation name="androidx.annotation.FloatRange"/>
+  </item>
+  <item name="android.location.GnssAntennaInfo.PhaseCenterOffset double getXOffsetUncertaintyMm()">
+    <annotation name="androidx.annotation.FloatRange"/>
+  </item>
+  <item name="android.location.GnssAntennaInfo.PhaseCenterOffset double getYOffsetMm()">
+    <annotation name="androidx.annotation.FloatRange"/>
+  </item>
+  <item name="android.location.GnssAntennaInfo.PhaseCenterOffset double getYOffsetUncertaintyMm()">
+    <annotation name="androidx.annotation.FloatRange"/>
+  </item>
+  <item name="android.location.GnssAntennaInfo.PhaseCenterOffset double getZOffsetMm()">
+    <annotation name="androidx.annotation.FloatRange"/>
+  </item>
+  <item name="android.location.GnssAntennaInfo.PhaseCenterOffset double getZOffsetUncertaintyMm()">
+    <annotation name="androidx.annotation.FloatRange"/>
+  </item>
+  <item name="android.location.GnssAntennaInfo.SphericalCorrections double getDeltaPhi()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+      <val name="to" val="180.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssAntennaInfo.SphericalCorrections double getDeltaTheta()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+      <val name="to" val="360.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getBiasUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getDriftUncertaintyNanosPerSecond()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getElapsedRealtimeUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getReferenceCarrierFrequencyHzForIsb()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getTimeUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock int getReferenceConstellationTypeForIsb()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssStatus.CONSTELLATION_UNKNOWN, android.location.GnssStatus.CONSTELLATION_GPS, android.location.GnssStatus.CONSTELLATION_SBAS, android.location.GnssStatus.CONSTELLATION_GLONASS, android.location.GnssStatus.CONSTELLATION_QZSS, android.location.GnssStatus.CONSTELLATION_BEIDOU, android.location.GnssStatus.CONSTELLATION_GALILEO, android.location.GnssStatus.CONSTELLATION_IRNSS}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement double getBasebandCn0DbHz()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="63" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement double getCn0DbHz()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="63" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement double getFullInterSignalBiasUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement double getSatelliteInterSignalBiasUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getAccumulatedDeltaRangeState()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.location.GnssMeasurement.ADR_STATE_VALID, android.location.GnssMeasurement.ADR_STATE_RESET, android.location.GnssMeasurement.ADR_STATE_CYCLE_SLIP, android.location.GnssMeasurement.ADR_STATE_HALF_CYCLE_RESOLVED, android.location.GnssMeasurement.ADR_STATE_HALF_CYCLE_REPORTED}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getConstellationType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssStatus.CONSTELLATION_UNKNOWN, android.location.GnssStatus.CONSTELLATION_GPS, android.location.GnssStatus.CONSTELLATION_SBAS, android.location.GnssStatus.CONSTELLATION_GLONASS, android.location.GnssStatus.CONSTELLATION_QZSS, android.location.GnssStatus.CONSTELLATION_BEIDOU, android.location.GnssStatus.CONSTELLATION_GALILEO, android.location.GnssStatus.CONSTELLATION_IRNSS}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getMultipathIndicator()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssMeasurement.MULTIPATH_INDICATOR_UNKNOWN, android.location.GnssMeasurement.MULTIPATH_INDICATOR_DETECTED, android.location.GnssMeasurement.MULTIPATH_INDICATOR_NOT_DETECTED}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getState()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.location.GnssMeasurement.STATE_CODE_LOCK, android.location.GnssMeasurement.STATE_BIT_SYNC, android.location.GnssMeasurement.STATE_SUBFRAME_SYNC, android.location.GnssMeasurement.STATE_TOW_DECODED, android.location.GnssMeasurement.STATE_MSEC_AMBIGUOUS, android.location.GnssMeasurement.STATE_SYMBOL_SYNC, android.location.GnssMeasurement.STATE_GLO_STRING_SYNC, android.location.GnssMeasurement.STATE_GLO_TOD_DECODED, android.location.GnssMeasurement.STATE_BDS_D2_BIT_SYNC, android.location.GnssMeasurement.STATE_BDS_D2_SUBFRAME_SYNC, android.location.GnssMeasurement.STATE_GAL_E1BC_CODE_LOCK, android.location.GnssMeasurement.STATE_GAL_E1C_2ND_CODE_LOCK, android.location.GnssMeasurement.STATE_GAL_E1B_PAGE_SYNC, android.location.GnssMeasurement.STATE_SBAS_SYNC, android.location.GnssMeasurement.STATE_TOW_KNOWN, android.location.GnssMeasurement.STATE_GLO_TOD_KNOWN, android.location.GnssMeasurement.STATE_2ND_CODE_LOCK}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurementsEvent.Callback void onStatusChanged(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssMeasurementsEvent.Callback.STATUS_NOT_SUPPORTED, android.location.GnssMeasurementsEvent.Callback.STATUS_READY, android.location.GnssMeasurementsEvent.Callback.STATUS_LOCATION_DISABLED, android.location.GnssMeasurementsEvent.Callback.STATUS_NOT_ALLOWED}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssNavigationMessage int getType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssNavigationMessage.TYPE_UNKNOWN, android.location.GnssNavigationMessage.TYPE_GPS_L1CA, android.location.GnssNavigationMessage.TYPE_GPS_L2CNAV, android.location.GnssNavigationMessage.TYPE_GPS_L5CNAV, android.location.GnssNavigationMessage.TYPE_GPS_CNAV2, android.location.GnssNavigationMessage.TYPE_SBS, android.location.GnssNavigationMessage.TYPE_GLO_L1CA, android.location.GnssNavigationMessage.TYPE_QZS_L1CA, android.location.GnssNavigationMessage.TYPE_BDS_D1, android.location.GnssNavigationMessage.TYPE_BDS_D2, android.location.GnssNavigationMessage.TYPE_BDS_CNAV1, android.location.GnssNavigationMessage.TYPE_BDS_CNAV2, android.location.GnssNavigationMessage.TYPE_GAL_I, android.location.GnssNavigationMessage.TYPE_GAL_F, android.location.GnssNavigationMessage.TYPE_IRN_L5CA}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssNavigationMessage.Callback void onStatusChanged(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssNavigationMessage.Callback.STATUS_NOT_SUPPORTED, android.location.GnssNavigationMessage.Callback.STATUS_READY, android.location.GnssNavigationMessage.Callback.STATUS_LOCATION_DISABLED}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus boolean hasAlmanacData(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus boolean hasBasebandCn0DbHz(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus boolean hasCarrierFrequencyHz(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus boolean hasEphemerisData(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus boolean usedInFix(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getAzimuthDegrees(int)">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="360" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getAzimuthDegrees(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getBasebandCn0DbHz(int)">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="63" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getBasebandCn0DbHz(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getCarrierFrequencyHz(int)">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getCarrierFrequencyHz(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getCn0DbHz(int)">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="63" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getCn0DbHz(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getElevationDegrees(int)">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="-90" />
+      <val name="to" val="90" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus float getElevationDegrees(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus int getConstellationType(int)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssStatus.CONSTELLATION_UNKNOWN, android.location.GnssStatus.CONSTELLATION_GPS, android.location.GnssStatus.CONSTELLATION_SBAS, android.location.GnssStatus.CONSTELLATION_GLONASS, android.location.GnssStatus.CONSTELLATION_QZSS, android.location.GnssStatus.CONSTELLATION_BEIDOU, android.location.GnssStatus.CONSTELLATION_GALILEO, android.location.GnssStatus.CONSTELLATION_IRNSS}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus int getConstellationType(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus int getSatelliteCount()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus int getSvid(int)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+      <val name="to" val="200" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus int getSvid(int) 0">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus.Builder android.location.GnssStatus.Builder addSatellite(int, int, float, float, float, boolean, boolean, boolean, boolean, float, boolean, float) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssStatus.CONSTELLATION_UNKNOWN, android.location.GnssStatus.CONSTELLATION_GPS, android.location.GnssStatus.CONSTELLATION_SBAS, android.location.GnssStatus.CONSTELLATION_GLONASS, android.location.GnssStatus.CONSTELLATION_QZSS, android.location.GnssStatus.CONSTELLATION_BEIDOU, android.location.GnssStatus.CONSTELLATION_GALILEO, android.location.GnssStatus.CONSTELLATION_IRNSS}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus.Builder android.location.GnssStatus.Builder addSatellite(int, int, float, float, float, boolean, boolean, boolean, boolean, float, boolean, float) 1">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+      <val name="to" val="200" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus.Builder android.location.GnssStatus.Builder addSatellite(int, int, float, float, float, boolean, boolean, boolean, boolean, float, boolean, float) 11">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="63" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus.Builder android.location.GnssStatus.Builder addSatellite(int, int, float, float, float, boolean, boolean, boolean, boolean, float, boolean, float) 2">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="63" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus.Builder android.location.GnssStatus.Builder addSatellite(int, int, float, float, float, boolean, boolean, boolean, boolean, float, boolean, float) 3">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="-90" />
+      <val name="to" val="90" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus.Builder android.location.GnssStatus.Builder addSatellite(int, int, float, float, float, boolean, boolean, boolean, boolean, float, boolean, float) 4">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+      <val name="to" val="360" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssStatus.Builder android.location.GnssStatus.Builder addSatellite(int, int, float, float, float, boolean, boolean, boolean, boolean, float, boolean, float) 9">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager android.location.GpsStatus getGpsStatus(android.location.GpsStatus)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager android.location.Location getLastKnownLocation(java.lang.String)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean addGpsStatusListener(android.location.GpsStatus.Listener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean addNmeaListener(android.location.GpsStatus.NmeaListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean addNmeaListener(android.location.OnNmeaMessageListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean addNmeaListener(android.location.OnNmeaMessageListener, android.os.Handler)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean addNmeaListener(java.util.concurrent.Executor, android.location.OnNmeaMessageListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerAntennaInfoListener(java.util.concurrent.Executor, android.location.GnssAntennaInfo.Listener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssMeasurementsCallback(android.location.GnssMeasurementsEvent.Callback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssMeasurementsCallback(android.location.GnssMeasurementsEvent.Callback, android.os.Handler)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssMeasurementsCallback(java.util.concurrent.Executor, android.location.GnssMeasurementsEvent.Callback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssNavigationMessageCallback(android.location.GnssNavigationMessage.Callback, android.os.Handler)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssNavigationMessageCallback(java.util.concurrent.Executor, android.location.GnssNavigationMessage.Callback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssStatusCallback(android.location.GnssStatus.Callback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssStatusCallback(android.location.GnssStatus.Callback, android.os.Handler)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager boolean registerGnssStatusCallback(java.util.concurrent.Executor, android.location.GnssStatus.Callback)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void addProximityAlert(double, double, float, long, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void getCurrentLocation(java.lang.String, android.os.CancellationSignal, java.util.concurrent.Executor, java.util.function.Consumer<android.location.Location>)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void removeProximityAlert(android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+      <val name="apis" val="&quot;..22&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void removeUpdates(android.location.LocationListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+      <val name="apis" val="&quot;..22&quot;" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestLocationUpdates(java.lang.String, long, float, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestLocationUpdates(java.lang.String, long, float, android.location.LocationListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestLocationUpdates(java.lang.String, long, float, android.location.LocationListener, android.os.Looper)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestLocationUpdates(java.lang.String, long, float, java.util.concurrent.Executor, android.location.LocationListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestLocationUpdates(long, float, android.location.Criteria, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestLocationUpdates(long, float, android.location.Criteria, android.location.LocationListener, android.os.Looper)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestLocationUpdates(long, float, android.location.Criteria, java.util.concurrent.Executor, android.location.LocationListener)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestSingleUpdate(android.location.Criteria, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestSingleUpdate(android.location.Criteria, android.location.LocationListener, android.os.Looper)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestSingleUpdate(java.lang.String, android.app.PendingIntent)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+  <item name="android.location.LocationManager void requestSingleUpdate(java.lang.String, android.location.LocationListener, android.os.Looper)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
+    </annotation>
+  </item>
+</root>
+

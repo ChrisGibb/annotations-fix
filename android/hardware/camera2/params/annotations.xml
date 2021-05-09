@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.hardware.camera2.params.MandatoryStreamCombination.MandatoryStreamInformation int getFormat()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap boolean isOutputSupportedFor(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap int getRecommendedUseCase()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.hardware.camera2.params.RecommendedStreamConfigurationMap.USECASE_PREVIEW, android.hardware.camera2.params.RecommendedStreamConfigurationMap.USECASE_RECORD, android.hardware.camera2.params.RecommendedStreamConfigurationMap.USECASE_VIDEO_SNAPSHOT, android.hardware.camera2.params.RecommendedStreamConfigurationMap.USECASE_SNAPSHOT, android.hardware.camera2.params.RecommendedStreamConfigurationMap.USECASE_ZSL, android.hardware.camera2.params.RecommendedStreamConfigurationMap.USECASE_RAW, android.hardware.camera2.params.RecommendedStreamConfigurationMap.USECASE_LOW_LATENCY_SNAPSHOT}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap java.util.Set&lt;android.util.Size&gt; getHighResolutionOutputSizes(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap java.util.Set&lt;android.util.Size&gt; getInputSizes(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap java.util.Set&lt;android.util.Size&gt; getOutputSizes(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap java.util.Set&lt;java.lang.Integer&gt; getValidOutputFormatsForInput(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap long getOutputMinFrameDuration(int, android.util.Size)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap long getOutputMinFrameDuration(int, android.util.Size) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap long getOutputMinFrameDuration(java.lang.Class<T>, android.util.Size)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap long getOutputStallDuration(int, android.util.Size)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap long getOutputStallDuration(int, android.util.Size) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.graphics.ImageFormat.UNKNOWN, android.graphics.ImageFormat.RGB_565, android.graphics.ImageFormat.YV12, android.graphics.ImageFormat.Y8, android.graphics.ImageFormat.NV16, android.graphics.ImageFormat.NV21, android.graphics.ImageFormat.YUY2, android.graphics.ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, android.graphics.ImageFormat.YUV_420_888, android.graphics.ImageFormat.YUV_422_888, android.graphics.ImageFormat.YUV_444_888, android.graphics.ImageFormat.FLEX_RGB_888, android.graphics.ImageFormat.FLEX_RGBA_8888, android.graphics.ImageFormat.RAW_SENSOR, android.graphics.ImageFormat.RAW_PRIVATE, android.graphics.ImageFormat.RAW10, android.graphics.ImageFormat.RAW12, android.graphics.ImageFormat.DEPTH16, android.graphics.ImageFormat.DEPTH_POINT_CLOUD, android.graphics.ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.RecommendedStreamConfigurationMap long getOutputStallDuration(java.lang.Class<T>, android.util.Size)">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.SessionConfiguration SessionConfiguration(int, java.util.List<android.hardware.camera2.params.OutputConfiguration>, java.util.concurrent.Executor, android.hardware.camera2.CameraCaptureSession.StateCallback) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.hardware.camera2.params.SessionConfiguration.SESSION_REGULAR, android.hardware.camera2.params.SessionConfiguration.SESSION_HIGH_SPEED}" />
+    </annotation>
+  </item>
+  <item name="android.hardware.camera2.params.SessionConfiguration int getSessionType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.hardware.camera2.params.SessionConfiguration.SESSION_REGULAR, android.hardware.camera2.params.SessionConfiguration.SESSION_HIGH_SPEED}" />
+    </annotation>
+  </item>
+</root>
+

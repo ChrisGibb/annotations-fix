@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.provider.BlockedNumberContract boolean isBlocked(android.content.Context, java.lang.String)">
+    <annotation name="androidx.annotation.WorkerThread"/>
+  </item>
+  <item name="android.provider.BlockedNumberContract int unblock(android.content.Context, java.lang.String)">
+    <annotation name="androidx.annotation.WorkerThread"/>
+  </item>
+  <item name="android.provider.DocumentsProvider android.net.Uri canonicalize(android.net.Uri)">
+    <annotation name="androidx.annotation.CallSuper"/>
+  </item>
+  <item name="android.provider.DocumentsProvider android.os.Bundle call(java.lang.String, java.lang.String, android.os.Bundle)">
+    <annotation name="androidx.annotation.CallSuper"/>
+  </item>
+  <item name="android.provider.FontsContract.FontFamilyResult int getStatusCode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.provider.FontsContract.FontFamilyResult.STATUS_OK, android.provider.FontsContract.FontFamilyResult.STATUS_WRONG_CERTIFICATES, android.provider.FontsContract.FontFamilyResult.STATUS_UNEXPECTED_DATA_PROVIDED}" />
+    </annotation>
+  </item>
+  <item name="android.provider.FontsContract.FontInfo int getTtcIndex()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="0" />
+    </annotation>
+  </item>
+  <item name="android.provider.FontsContract.FontInfo int getWeight()">
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+      <val name="to" val="1000" />
+    </annotation>
+  </item>
+  <item name="android.provider.FontsContract.FontRequestCallback void onTypefaceRequestFailed(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.provider.FontsContract.FontRequestCallback.FAIL_REASON_PROVIDER_NOT_FOUND, android.provider.FontsContract.FontRequestCallback.FAIL_REASON_FONT_LOAD_ERROR, android.provider.FontsContract.FontRequestCallback.FAIL_REASON_FONT_NOT_FOUND, android.provider.FontsContract.FontRequestCallback.FAIL_REASON_FONT_UNAVAILABLE, android.provider.FontsContract.FontRequestCallback.FAIL_REASON_MALFORMED_QUERY}" />
+    </annotation>
+  </item>
+  <item name="android.provider.MediaStore QUERY_ARG_MATCH_FAVORITE">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.provider.MediaStore.MATCH_DEFAULT, android.provider.MediaStore.MATCH_INCLUDE, android.provider.MediaStore.MATCH_EXCLUDE, android.provider.MediaStore.MATCH_ONLY}" />
+    </annotation>
+  </item>
+  <item name="android.provider.MediaStore QUERY_ARG_MATCH_PENDING">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.provider.MediaStore.MATCH_DEFAULT, android.provider.MediaStore.MATCH_INCLUDE, android.provider.MediaStore.MATCH_EXCLUDE, android.provider.MediaStore.MATCH_ONLY}" />
+    </annotation>
+  </item>
+  <item name="android.provider.MediaStore QUERY_ARG_MATCH_TRASHED">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.provider.MediaStore.MATCH_DEFAULT, android.provider.MediaStore.MATCH_INCLUDE, android.provider.MediaStore.MATCH_EXCLUDE, android.provider.MediaStore.MATCH_ONLY}" />
+    </annotation>
+  </item>
+  <item name="android.provider.SimPhonebookContract.ElementaryFiles android.net.Uri getItemUri(int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.provider.SimPhonebookContract.ElementaryFiles.EF_UNKNOWN, android.provider.SimPhonebookContract.ElementaryFiles.EF_ADN, android.provider.SimPhonebookContract.ElementaryFiles.EF_FDN, android.provider.SimPhonebookContract.ElementaryFiles.EF_SDN}" />
+    </annotation>
+  </item>
+  <item name="android.provider.SimPhonebookContract.SimRecords android.net.Uri getContentUri(int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.provider.SimPhonebookContract.ElementaryFiles.EF_UNKNOWN, android.provider.SimPhonebookContract.ElementaryFiles.EF_ADN, android.provider.SimPhonebookContract.ElementaryFiles.EF_FDN, android.provider.SimPhonebookContract.ElementaryFiles.EF_SDN}" />
+    </annotation>
+  </item>
+  <item name="android.provider.SimPhonebookContract.SimRecords android.net.Uri getItemUri(int, int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.provider.SimPhonebookContract.ElementaryFiles.EF_UNKNOWN, android.provider.SimPhonebookContract.ElementaryFiles.EF_ADN, android.provider.SimPhonebookContract.ElementaryFiles.EF_FDN, android.provider.SimPhonebookContract.ElementaryFiles.EF_SDN}" />
+    </annotation>
+  </item>
+  <item name="android.provider.SimPhonebookContract.SimRecords int getEncodedNameLength(android.content.ContentResolver, java.lang.String)">
+    <annotation name="androidx.annotation.WorkerThread"/>
+  </item>
+</root>
+

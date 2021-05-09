@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.app.job.JobInfo int getBackoffPolicy()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.job.JobInfo.BACKOFF_POLICY_LINEAR, android.app.job.JobInfo.BACKOFF_POLICY_EXPONENTIAL}" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobInfo int getNetworkType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.job.JobInfo.NETWORK_TYPE_NONE, android.app.job.JobInfo.NETWORK_TYPE_ANY, android.app.job.JobInfo.NETWORK_TYPE_UNMETERED, android.app.job.JobInfo.NETWORK_TYPE_NOT_ROAMING, android.app.job.JobInfo.NETWORK_TYPE_CELLULAR}" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobInfo.Builder android.app.job.JobInfo.Builder setBackoffCriteria(long, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.job.JobInfo.BACKOFF_POLICY_LINEAR, android.app.job.JobInfo.BACKOFF_POLICY_EXPONENTIAL}" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobInfo.Builder android.app.job.JobInfo.Builder setPersisted(boolean)">
+    <annotation name="androidx.annotation.RequiresPermission">
+      <val name="value" val="&quot;android.permission.RECEIVE_BOOT_COMPLETED&quot;" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobInfo.Builder android.app.job.JobInfo.Builder setRequiredNetworkType(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.job.JobInfo.NETWORK_TYPE_NONE, android.app.job.JobInfo.NETWORK_TYPE_ANY, android.app.job.JobInfo.NETWORK_TYPE_UNMETERED, android.app.job.JobInfo.NETWORK_TYPE_NOT_ROAMING, android.app.job.JobInfo.NETWORK_TYPE_CELLULAR}" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobInfo.TriggerContentUri TriggerContentUri(android.net.Uri, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.job.JobInfo.TriggerContentUri.FLAG_NOTIFY_FOR_DESCENDANTS}" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobInfo.TriggerContentUri int getFlags()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.app.job.JobInfo.TriggerContentUri.FLAG_NOTIFY_FOR_DESCENDANTS}" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobScheduler int enqueue(android.app.job.JobInfo, android.app.job.JobWorkItem)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.job.JobScheduler.RESULT_FAILURE, android.app.job.JobScheduler.RESULT_SUCCESS}" />
+    </annotation>
+  </item>
+  <item name="android.app.job.JobScheduler int schedule(android.app.job.JobInfo)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.app.job.JobScheduler.RESULT_FAILURE, android.app.job.JobScheduler.RESULT_SUCCESS}" />
+    </annotation>
+  </item>
+</root>
+
