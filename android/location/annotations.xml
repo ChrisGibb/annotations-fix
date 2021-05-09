@@ -419,7 +419,7 @@
       <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
     </annotation>
   </item>
-  <item name="android.location.LocationManager void getCurrentLocation(java.lang.String, android.os.CancellationSignal, java.util.concurrent.Executor, java.util.function.Consumer<android.location.Location>)">
+  <item name="android.location.LocationManager void getCurrentLocation(java.lang.String, android.os.CancellationSignal, java.util.concurrent.Executor, java.util.function.Consumer&lt;android.location.Location&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="anyOf" val="{&quot;android.permission.ACCESS_COARSE_LOCATION&quot;, &quot;android.permission.ACCESS_FINE_LOCATION&quot;}" />
     </annotation>

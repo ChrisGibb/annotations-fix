@@ -63,7 +63,7 @@
   <item name="android.preference.PreferenceActivity android.content.Intent onBuildStartFragmentIntent(java.lang.String, android.os.Bundle, int, int) 2">
     <annotation name="androidx.annotation.StringRes"/>
   </item>
-  <item name="android.preference.PreferenceActivity void loadHeadersFromResource(int, java.util.List<android.preference.PreferenceActivity.Header>) 0">
+  <item name="android.preference.PreferenceActivity void loadHeadersFromResource(int, java.util.List&lt;android.preference.PreferenceActivity.Header&gt;) 0">
     <annotation name="androidx.annotation.XmlRes"/>
   </item>
   <item name="android.preference.PreferenceActivity void startPreferencePanel(java.lang.String, android.os.Bundle, int, java.lang.CharSequence, android.app.Fragment, int) 2">

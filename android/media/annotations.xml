@@ -460,7 +460,7 @@
       <val name="value" val="{android.media.MediaCodec.BUFFER_FLAG_SYNC_FRAME, android.media.MediaCodec.BUFFER_FLAG_KEY_FRAME, android.media.MediaCodec.BUFFER_FLAG_CODEC_CONFIG, android.media.MediaCodec.BUFFER_FLAG_END_OF_STREAM, android.media.MediaCodec.BUFFER_FLAG_PARTIAL_FRAME}" />
     </annotation>
   </item>
-  <item name="android.media.MediaDrm android.media.MediaDrm.KeyRequest getKeyRequest(byte[], byte[], java.lang.String, int, java.util.HashMap<java.lang.String,java.lang.String>) 3">
+  <item name="android.media.MediaDrm android.media.MediaDrm.KeyRequest getKeyRequest(byte[], byte[], java.lang.String, int, java.util.HashMap&lt;java.lang.String,java.lang.String&gt;) 3">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.media.MediaDrm.KEY_TYPE_STREAMING, android.media.MediaDrm.KEY_TYPE_OFFLINE, android.media.MediaDrm.KEY_TYPE_RELEASE}" />
     </annotation>
@@ -671,7 +671,7 @@
       <val name="value" val="{android.media.MediaParser.SAMPLE_FLAG_KEY_FRAME, android.media.MediaParser.SAMPLE_FLAG_HAS_SUPPLEMENTAL_DATA, android.media.MediaParser.SAMPLE_FLAG_LAST_SAMPLE, android.media.MediaParser.SAMPLE_FLAG_ENCRYPTED, android.media.MediaParser.SAMPLE_FLAG_DECODE_ONLY}" />
     </annotation>
   </item>
-  <item name="android.media.MediaPlayer android.media.MediaDrm.KeyRequest getKeyRequest(byte[], byte[], java.lang.String, int, java.util.Map<java.lang.String,java.lang.String>) 3">
+  <item name="android.media.MediaPlayer android.media.MediaDrm.KeyRequest getKeyRequest(byte[], byte[], java.lang.String, int, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 3">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.media.MediaDrm.KEY_TYPE_STREAMING, android.media.MediaDrm.KEY_TYPE_OFFLINE, android.media.MediaDrm.KEY_TYPE_RELEASE}" />
     </annotation>

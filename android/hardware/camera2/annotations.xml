@@ -35,7 +35,7 @@
       <val name="value" val="{android.hardware.camera2.CameraDevice.TEMPLATE_PREVIEW, android.hardware.camera2.CameraDevice.TEMPLATE_STILL_CAPTURE, android.hardware.camera2.CameraDevice.TEMPLATE_RECORD, android.hardware.camera2.CameraDevice.TEMPLATE_VIDEO_SNAPSHOT, android.hardware.camera2.CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG, android.hardware.camera2.CameraDevice.TEMPLATE_MANUAL}" />
     </annotation>
   </item>
-  <item name="android.hardware.camera2.CameraDevice android.hardware.camera2.CaptureRequest.Builder createCaptureRequest(int, java.util.Set<java.lang.String>) 0">
+  <item name="android.hardware.camera2.CameraDevice android.hardware.camera2.CaptureRequest.Builder createCaptureRequest(int, java.util.Set&lt;java.lang.String&gt;) 0">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.hardware.camera2.CameraDevice.TEMPLATE_PREVIEW, android.hardware.camera2.CameraDevice.TEMPLATE_STILL_CAPTURE, android.hardware.camera2.CameraDevice.TEMPLATE_RECORD, android.hardware.camera2.CameraDevice.TEMPLATE_VIDEO_SNAPSHOT, android.hardware.camera2.CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG, android.hardware.camera2.CameraDevice.TEMPLATE_MANUAL}" />
     </annotation>
@@ -55,7 +55,7 @@
       <val name="value" val="{android.hardware.camera2.CameraDevice.StateCallback.ERROR_CAMERA_IN_USE, android.hardware.camera2.CameraDevice.StateCallback.ERROR_MAX_CAMERAS_IN_USE, android.hardware.camera2.CameraDevice.StateCallback.ERROR_CAMERA_DISABLED, android.hardware.camera2.CameraDevice.StateCallback.ERROR_CAMERA_DEVICE, android.hardware.camera2.CameraDevice.StateCallback.ERROR_CAMERA_SERVICE}" />
     </annotation>
   </item>
-  <item name="android.hardware.camera2.CameraManager boolean isConcurrentSessionConfigurationSupported(java.util.Map<java.lang.String,android.hardware.camera2.params.SessionConfiguration>)">
+  <item name="android.hardware.camera2.CameraManager boolean isConcurrentSessionConfigurationSupported(java.util.Map&lt;java.lang.String,android.hardware.camera2.params.SessionConfiguration&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.CAMERA&quot;" />
     </annotation>

@@ -347,17 +347,17 @@
       <val name="value" val="{android.view.View.FOCUS_BACKWARD, android.view.View.FOCUS_FORWARD, android.view.View.FOCUS_LEFT, android.view.View.FOCUS_UP, android.view.View.FOCUS_RIGHT, android.view.View.FOCUS_DOWN}" />
     </annotation>
   </item>
-  <item name="android.view.View void addFocusables(java.util.ArrayList<android.view.View>, int) 1">
+  <item name="android.view.View void addFocusables(java.util.ArrayList&lt;android.view.View&gt;, int) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.view.View.FOCUS_BACKWARD, android.view.View.FOCUS_FORWARD, android.view.View.FOCUS_LEFT, android.view.View.FOCUS_UP, android.view.View.FOCUS_RIGHT, android.view.View.FOCUS_DOWN}" />
     </annotation>
   </item>
-  <item name="android.view.View void addFocusables(java.util.ArrayList<android.view.View>, int, int) 1">
+  <item name="android.view.View void addFocusables(java.util.ArrayList&lt;android.view.View&gt;, int, int) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.view.View.FOCUS_BACKWARD, android.view.View.FOCUS_FORWARD, android.view.View.FOCUS_LEFT, android.view.View.FOCUS_UP, android.view.View.FOCUS_RIGHT, android.view.View.FOCUS_DOWN}" />
     </annotation>
   </item>
-  <item name="android.view.View void addFocusables(java.util.ArrayList<android.view.View>, int, int) 2">
+  <item name="android.view.View void addFocusables(java.util.ArrayList&lt;android.view.View&gt;, int, int) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="flag" val="true" />
       <val name="value" val="{android.view.View.FOCUSABLES_ALL, android.view.View.FOCUSABLES_TOUCH_MODE}" />
@@ -399,7 +399,7 @@
   <item name="android.view.View void drawableStateChanged()">
     <annotation name="androidx.annotation.CallSuper"/>
   </item>
-  <item name="android.view.View void findViewsWithText(java.util.ArrayList<android.view.View>, java.lang.CharSequence, int) 2">
+  <item name="android.view.View void findViewsWithText(java.util.ArrayList&lt;android.view.View&gt;, java.lang.CharSequence, int) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="flag" val="true" />
       <val name="value" val="{android.view.View.FIND_VIEWS_WITH_TEXT, android.view.View.FIND_VIEWS_WITH_CONTENT_DESCRIPTION}" />

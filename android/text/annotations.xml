@@ -192,13 +192,13 @@
   <item name="android.text.TextPaint underlineThickness">
     <annotation name="androidx.annotation.Px"/>
   </item>
-  <item name="android.text.TextUtils java.lang.CharSequence listEllipsize(android.content.Context, java.util.List<java.lang.CharSequence>, java.lang.String, android.text.TextPaint, float, int) 4">
+  <item name="android.text.TextUtils java.lang.CharSequence listEllipsize(android.content.Context, java.util.List&lt;java.lang.CharSequence&gt;, java.lang.String, android.text.TextPaint, float, int) 4">
     <annotation name="androidx.annotation.FloatRange">
       <val name="from" val="0.0" />
       <val name="fromInclusive" val="false" />
     </annotation>
   </item>
-  <item name="android.text.TextUtils java.lang.CharSequence listEllipsize(android.content.Context, java.util.List<java.lang.CharSequence>, java.lang.String, android.text.TextPaint, float, int) 5">
+  <item name="android.text.TextUtils java.lang.CharSequence listEllipsize(android.content.Context, java.util.List&lt;java.lang.CharSequence&gt;, java.lang.String, android.text.TextPaint, float, int) 5">
     <annotation name="androidx.annotation.PluralsRes"/>
   </item>
   <item name="android.text.TextUtils java.lang.CharSequence makeSafeForPresentation(java.lang.String, int, float, int) 1">

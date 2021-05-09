@@ -24,10 +24,10 @@
   <item name="android.view.inspector.PropertyMapper int mapInt(java.lang.String, int) 1">
     <annotation name="androidx.annotation.AttrRes"/>
   </item>
-  <item name="android.view.inspector.PropertyMapper int mapIntEnum(java.lang.String, int, java.util.function.IntFunction<java.lang.String>) 1">
+  <item name="android.view.inspector.PropertyMapper int mapIntEnum(java.lang.String, int, java.util.function.IntFunction&lt;java.lang.String&gt;) 1">
     <annotation name="androidx.annotation.AttrRes"/>
   </item>
-  <item name="android.view.inspector.PropertyMapper int mapIntFlag(java.lang.String, int, java.util.function.IntFunction<java.util.Set<java.lang.String>>) 1">
+  <item name="android.view.inspector.PropertyMapper int mapIntFlag(java.lang.String, int, java.util.function.IntFunction&lt;java.util.Set&lt;java.lang.String&gt;&gt;) 1">
     <annotation name="androidx.annotation.AttrRes"/>
   </item>
   <item name="android.view.inspector.PropertyMapper int mapLong(java.lang.String, int) 1">

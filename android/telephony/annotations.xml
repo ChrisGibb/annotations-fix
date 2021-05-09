@@ -345,7 +345,7 @@
       <val name="value" val="{android.telephony.SubscriptionManager.SUBSCRIPTION_TYPE_LOCAL_SIM, android.telephony.SubscriptionManager.SUBSCRIPTION_TYPE_REMOTE_SIM}" />
     </annotation>
   </item>
-  <item name="android.telephony.SubscriptionManager android.os.ParcelUuid createSubscriptionGroup(java.util.List<java.lang.Integer>)">
+  <item name="android.telephony.SubscriptionManager android.os.ParcelUuid createSubscriptionGroup(java.util.List&lt;java.lang.Integer&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.MODIFY_PHONE_STATE&quot;" />
     </annotation>
@@ -390,12 +390,12 @@
       <val name="value" val="&quot;android.permission.READ_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.SubscriptionManager void addSubscriptionsIntoGroup(java.util.List<java.lang.Integer>, android.os.ParcelUuid)">
+  <item name="android.telephony.SubscriptionManager void addSubscriptionsIntoGroup(java.util.List&lt;java.lang.Integer&gt;, android.os.ParcelUuid)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.MODIFY_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.SubscriptionManager void removeSubscriptionsFromGroup(java.util.List<java.lang.Integer>, android.os.ParcelUuid)">
+  <item name="android.telephony.SubscriptionManager void removeSubscriptionsFromGroup(java.util.List&lt;java.lang.Integer&gt;, android.os.ParcelUuid)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.MODIFY_PHONE_STATE&quot;" />
     </annotation>
@@ -477,7 +477,7 @@
       <val name="value" val="{android.telephony.TelephonyManager.CALL_STATE_IDLE, android.telephony.TelephonyManager.CALL_STATE_RINGING, android.telephony.TelephonyManager.CALL_STATE_OFFHOOK}" />
     </annotation>
   </item>
-  <item name="android.telephony.TelephonyCallback.CellInfoListener void onCellInfoChanged(java.util.List<android.telephony.CellInfo>)">
+  <item name="android.telephony.TelephonyCallback.CellInfoListener void onCellInfoChanged(java.util.List&lt;android.telephony.CellInfo&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.ACCESS_FINE_LOCATION&quot;" />
     </annotation>
@@ -524,7 +524,7 @@
       <val name="value" val="&quot;android.permission.READ_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.TelephonyCallback.EmergencyNumberListListener void onEmergencyNumberListChanged(java.util.Map<java.lang.Integer,java.util.List<android.telephony.emergency.EmergencyNumber>>)">
+  <item name="android.telephony.TelephonyCallback.EmergencyNumberListListener void onEmergencyNumberListChanged(java.util.Map&lt;java.lang.Integer,java.util.List&lt;android.telephony.emergency.EmergencyNumber&gt;&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.READ_PHONE_STATE&quot;" />
     </annotation>
@@ -539,7 +539,7 @@
       <val name="value" val="&quot;android.permission.READ_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.TelephonyCallback.PhysicalChannelConfigListener void onPhysicalChannelConfigChanged(java.util.List<android.telephony.PhysicalChannelConfig>)">
+  <item name="android.telephony.TelephonyCallback.PhysicalChannelConfigListener void onPhysicalChannelConfigChanged(java.util.List&lt;android.telephony.PhysicalChannelConfig&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.READ_PRECISE_PHONE_STATE&quot;" />
     </annotation>
@@ -738,7 +738,7 @@
       <val name="value" val="{android.telephony.TelephonyManager.MULTISIM_ALLOWED, android.telephony.TelephonyManager.MULTISIM_NOT_SUPPORTED_BY_HARDWARE, android.telephony.TelephonyManager.MULTISIM_NOT_SUPPORTED_BY_CARRIER}" />
     </annotation>
   </item>
-  <item name="android.telephony.TelephonyManager int setForbiddenPlmns(java.util.List<java.lang.String>)">
+  <item name="android.telephony.TelephonyManager int setForbiddenPlmns(java.util.List&lt;java.lang.String&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.MODIFY_PHONE_STATE&quot;" />
     </annotation>
@@ -914,7 +914,7 @@
       <val name="value" val="&quot;android.permission.MODIFY_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.TelephonyManager void updateAvailableNetworks(java.util.List<android.telephony.AvailableNetworkInfo>, java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>) 2">
+  <item name="android.telephony.TelephonyManager void updateAvailableNetworks(java.util.List&lt;android.telephony.AvailableNetworkInfo&gt;, java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_SUCCESS, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_UNKNOWN_FAILURE, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_ABORTED, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_INVALID_ARGUMENTS, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_NO_CARRIER_PRIVILEGE, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_DISABLE_MODEM_FAIL, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_ENABLE_MODEM_FAIL, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_MULTIPLE_NETWORKS_NOT_SUPPORTED, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_NO_OPPORTUNISTIC_SUB_AVAILABLE, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_REMOTE_SERVICE_EXCEPTION, android.telephony.TelephonyManager.UPDATE_AVAILABLE_NETWORKS_SERVICE_IS_DISABLED}" />
     </annotation>

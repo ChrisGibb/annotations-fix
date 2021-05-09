@@ -44,7 +44,7 @@
       <val name="value" val="{android.content.ContentResolver.NOTIFY_SYNC_TO_NETWORK, android.content.ContentResolver.NOTIFY_SKIP_NOTIFY_FOR_DESCENDANTS, android.content.ContentResolver.NOTIFY_INSERT, android.content.ContentResolver.NOTIFY_UPDATE, android.content.ContentResolver.NOTIFY_DELETE}" />
     </annotation>
   </item>
-  <item name="android.content.ContentResolver void notifyChange(java.util.Collection<android.net.Uri>, android.database.ContentObserver, int) 2">
+  <item name="android.content.ContentResolver void notifyChange(java.util.Collection&lt;android.net.Uri&gt;, android.database.ContentObserver, int) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="flag" val="true" />
       <val name="value" val="{android.content.ContentResolver.NOTIFY_SYNC_TO_NETWORK, android.content.ContentResolver.NOTIFY_SKIP_NOTIFY_FOR_DESCENDANTS, android.content.ContentResolver.NOTIFY_INSERT, android.content.ContentResolver.NOTIFY_UPDATE, android.content.ContentResolver.NOTIFY_DELETE}" />

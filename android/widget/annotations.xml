@@ -55,13 +55,13 @@
   <item name="android.widget.ArrayAdapter ArrayAdapter(android.content.Context, int, int, T[]) 2">
     <annotation name="androidx.annotation.IdRes"/>
   </item>
-  <item name="android.widget.ArrayAdapter ArrayAdapter(android.content.Context, int, int, java.util.List<T>) 1">
+  <item name="android.widget.ArrayAdapter ArrayAdapter(android.content.Context, int, int, java.util.List&lt;T&gt;) 1">
     <annotation name="androidx.annotation.LayoutRes"/>
   </item>
-  <item name="android.widget.ArrayAdapter ArrayAdapter(android.content.Context, int, int, java.util.List<T>) 2">
+  <item name="android.widget.ArrayAdapter ArrayAdapter(android.content.Context, int, int, java.util.List&lt;T&gt;) 2">
     <annotation name="androidx.annotation.IdRes"/>
   </item>
-  <item name="android.widget.ArrayAdapter ArrayAdapter(android.content.Context, int, java.util.List<T>) 1">
+  <item name="android.widget.ArrayAdapter ArrayAdapter(android.content.Context, int, java.util.List&lt;T&gt;) 1">
     <annotation name="androidx.annotation.LayoutRes"/>
   </item>
   <item name="android.widget.ArrayAdapter android.widget.ArrayAdapter&lt;java.lang.CharSequence&gt; createFromResource(android.content.Context, int, int) 1">
@@ -486,10 +486,10 @@
   <item name="android.widget.ScrollView void setTopEdgeEffectColor(int) 0">
     <annotation name="androidx.annotation.ColorInt"/>
   </item>
-  <item name="android.widget.SimpleAdapter SimpleAdapter(android.content.Context, java.util.List<? extends java.util.Map<java.lang.String,?>>, int, java.lang.String[], int[]) 2">
+  <item name="android.widget.SimpleAdapter SimpleAdapter(android.content.Context, java.util.List&lt;? extends java.util.Map&lt;java.lang.String,?&gt;&gt;, int, java.lang.String[], int[]) 2">
     <annotation name="androidx.annotation.LayoutRes"/>
   </item>
-  <item name="android.widget.SimpleAdapter SimpleAdapter(android.content.Context, java.util.List<? extends java.util.Map<java.lang.String,?>>, int, java.lang.String[], int[]) 4">
+  <item name="android.widget.SimpleAdapter SimpleAdapter(android.content.Context, java.util.List&lt;? extends java.util.Map&lt;java.lang.String,?&gt;&gt;, int, java.lang.String[], int[]) 4">
     <annotation name="androidx.annotation.IdRes"/>
   </item>
   <item name="android.widget.Spinner void setPopupBackgroundResource(int) 0">

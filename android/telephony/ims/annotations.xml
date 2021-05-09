@@ -38,12 +38,12 @@
       <val name="value" val="{android.telephony.ims.ImsMmTelManager.WIFI_MODE_WIFI_ONLY, android.telephony.ims.ImsMmTelManager.WIFI_MODE_CELLULAR_PREFERRED, android.telephony.ims.ImsMmTelManager.WIFI_MODE_WIFI_PREFERRED}" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.ImsMmTelManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>)">
+  <item name="android.telephony.ims.ImsMmTelManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="anyOf" val="{&quot;android.permission.READ_PRIVILEGED_PHONE_STATE&quot;, &quot;android.permission.READ_PRECISE_PHONE_STATE&quot;}" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.ImsMmTelManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>) 1">
+  <item name="android.telephony.ims.ImsMmTelManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.telephony.AccessNetworkConstants.TRANSPORT_TYPE_WWAN, android.telephony.AccessNetworkConstants.TRANSPORT_TYPE_WLAN}" />
     </annotation>
@@ -68,22 +68,22 @@
       <val name="anyOf" val="{&quot;android.permission.READ_PRIVILEGED_PHONE_STATE&quot;, &quot;android.permission.READ_PRECISE_PHONE_STATE&quot;}" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.ImsRcsManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>)">
+  <item name="android.telephony.ims.ImsRcsManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.READ_PRECISE_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.ImsRcsManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>) 1">
+  <item name="android.telephony.ims.ImsRcsManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.telephony.ims.RegistrationManager.REGISTRATION_STATE_NOT_REGISTERED, android.telephony.ims.RegistrationManager.REGISTRATION_STATE_REGISTERING, android.telephony.ims.RegistrationManager.REGISTRATION_STATE_REGISTERED}" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.ImsRcsManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>)">
+  <item name="android.telephony.ims.ImsRcsManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.READ_PRECISE_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.ImsRcsManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>) 1">
+  <item name="android.telephony.ims.ImsRcsManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.telephony.AccessNetworkConstants.TRANSPORT_TYPE_WWAN, android.telephony.AccessNetworkConstants.TRANSPORT_TYPE_WLAN}" />
     </annotation>
@@ -118,22 +118,22 @@
       <val name="value" val="&quot;android.permission.READ_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.RegistrationManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>)">
+  <item name="android.telephony.ims.RegistrationManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.READ_PRIVILEGED_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.RegistrationManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>) 1">
+  <item name="android.telephony.ims.RegistrationManager void getRegistrationState(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.telephony.ims.RegistrationManager.REGISTRATION_STATE_NOT_REGISTERED, android.telephony.ims.RegistrationManager.REGISTRATION_STATE_REGISTERING, android.telephony.ims.RegistrationManager.REGISTRATION_STATE_REGISTERED}" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.RegistrationManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>)">
+  <item name="android.telephony.ims.RegistrationManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.READ_PRIVILEGED_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telephony.ims.RegistrationManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer<java.lang.Integer>) 1">
+  <item name="android.telephony.ims.RegistrationManager void getRegistrationTransportType(java.util.concurrent.Executor, java.util.function.Consumer&lt;java.lang.Integer&gt;) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.telephony.AccessNetworkConstants.TRANSPORT_TYPE_WWAN, android.telephony.AccessNetworkConstants.TRANSPORT_TYPE_WLAN}" />
     </annotation>

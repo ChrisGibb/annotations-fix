@@ -75,7 +75,7 @@
       <val name="value" val="{android.os.FileObserver.ACCESS, android.os.FileObserver.MODIFY, android.os.FileObserver.ATTRIB, android.os.FileObserver.CLOSE_WRITE, android.os.FileObserver.CLOSE_NOWRITE, android.os.FileObserver.OPEN, android.os.FileObserver.MOVED_FROM, android.os.FileObserver.MOVED_TO, android.os.FileObserver.CREATE, android.os.FileObserver.DELETE, android.os.FileObserver.DELETE_SELF, android.os.FileObserver.MOVE_SELF}" />
     </annotation>
   </item>
-  <item name="android.os.FileObserver FileObserver(java.util.List<java.io.File>, int) 1">
+  <item name="android.os.FileObserver FileObserver(java.util.List&lt;java.io.File&lt;, int) 1">
     <annotation name="androidx.annotation.IntDef">
       <val name="flag" val="true" />
       <val name="value" val="{android.os.FileObserver.ACCESS, android.os.FileObserver.MODIFY, android.os.FileObserver.ATTRIB, android.os.FileObserver.CLOSE_WRITE, android.os.FileObserver.CLOSE_NOWRITE, android.os.FileObserver.OPEN, android.os.FileObserver.MOVED_FROM, android.os.FileObserver.MOVED_TO, android.os.FileObserver.CREATE, android.os.FileObserver.DELETE, android.os.FileObserver.DELETE_SELF, android.os.FileObserver.MOVE_SELF}" />

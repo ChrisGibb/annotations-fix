@@ -116,37 +116,37 @@
       <val name="value" val="{android.net.ConnectivityManager.NetworkCallback.FLAG_INCLUDE_LOCATION_INFO}" />
     </annotation>
   </item>
-  <item name="android.net.DnsResolver void query(android.net.Network, java.lang.String, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback<? super java.util.List<java.net.InetAddress>>) 2">
+  <item name="android.net.DnsResolver void query(android.net.Network, java.lang.String, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback&lt;? super java.util.List&lt;java.net.InetAddress&gt;&gt;) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.net.DnsResolver.TYPE_A, android.net.DnsResolver.TYPE_AAAA}" />
     </annotation>
   </item>
-  <item name="android.net.DnsResolver void query(android.net.Network, java.lang.String, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback<? super java.util.List<java.net.InetAddress>>) 3">
+  <item name="android.net.DnsResolver void query(android.net.Network, java.lang.String, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback&lt;? super java.util.List&lt;java.net.InetAddress&gt;&gt;) 3">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.net.DnsResolver.FLAG_EMPTY, android.net.DnsResolver.FLAG_NO_RETRY, android.net.DnsResolver.FLAG_NO_CACHE_STORE, android.net.DnsResolver.FLAG_NO_CACHE_LOOKUP}" />
     </annotation>
   </item>
-  <item name="android.net.DnsResolver void query(android.net.Network, java.lang.String, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback<? super java.util.List<java.net.InetAddress>>) 2">
+  <item name="android.net.DnsResolver void query(android.net.Network, java.lang.String, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback&lt;? super java.util.List&lt;java.net.InetAddress&gt;&gt;) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.net.DnsResolver.FLAG_EMPTY, android.net.DnsResolver.FLAG_NO_RETRY, android.net.DnsResolver.FLAG_NO_CACHE_STORE, android.net.DnsResolver.FLAG_NO_CACHE_LOOKUP}" />
     </annotation>
   </item>
-  <item name="android.net.DnsResolver void rawQuery(android.net.Network, byte[], int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback<? super byte[]>) 2">
+  <item name="android.net.DnsResolver void rawQuery(android.net.Network, byte[], int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback&lt;? super byte[]&gt;) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.net.DnsResolver.FLAG_EMPTY, android.net.DnsResolver.FLAG_NO_RETRY, android.net.DnsResolver.FLAG_NO_CACHE_STORE, android.net.DnsResolver.FLAG_NO_CACHE_LOOKUP}" />
     </annotation>
   </item>
-  <item name="android.net.DnsResolver void rawQuery(android.net.Network, java.lang.String, int, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback<? super byte[]>) 2">
+  <item name="android.net.DnsResolver void rawQuery(android.net.Network, java.lang.String, int, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback&lt;? super byte[]&gt;) 2">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.net.DnsResolver.CLASS_IN}" />
     </annotation>
   </item>
-  <item name="android.net.DnsResolver void rawQuery(android.net.Network, java.lang.String, int, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback<? super byte[]>) 3">
+  <item name="android.net.DnsResolver void rawQuery(android.net.Network, java.lang.String, int, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback&lt;? super byte[]&gt;) 3">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.net.DnsResolver.TYPE_A, android.net.DnsResolver.TYPE_AAAA}" />
     </annotation>
   </item>
-  <item name="android.net.DnsResolver void rawQuery(android.net.Network, java.lang.String, int, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback<? super byte[]>) 4">
+  <item name="android.net.DnsResolver void rawQuery(android.net.Network, java.lang.String, int, int, int, java.util.concurrent.Executor, android.os.CancellationSignal, android.net.DnsResolver.Callback&lt;? super byte[]&gt;) 4">
     <annotation name="androidx.annotation.IntDef">
       <val name="value" val="{android.net.DnsResolver.FLAG_EMPTY, android.net.DnsResolver.FLAG_NO_RETRY, android.net.DnsResolver.FLAG_NO_CACHE_STORE, android.net.DnsResolver.FLAG_NO_CACHE_LOOKUP}" />
     </annotation>

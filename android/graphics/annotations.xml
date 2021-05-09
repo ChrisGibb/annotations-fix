@@ -731,7 +731,7 @@
   <item name="android.graphics.ImageDecoder android.graphics.ImageDecoder.Source createSource(java.nio.ByteBuffer)">
     <annotation name="androidx.annotation.AnyThread"/>
   </item>
-  <item name="android.graphics.ImageDecoder android.graphics.ImageDecoder.Source createSource(java.util.concurrent.Callable<android.content.res.AssetFileDescriptor>)">
+  <item name="android.graphics.ImageDecoder android.graphics.ImageDecoder.Source createSource(java.util.concurrent.Callable&lt;android.content.res.AssetFileDescriptor&gt;)">
     <annotation name="androidx.annotation.AnyThread"/>
   </item>
   <item name="android.graphics.ImageDecoder android.graphics.drawable.Drawable decodeDrawable(android.graphics.ImageDecoder.Source)">

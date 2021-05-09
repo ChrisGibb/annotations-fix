@@ -50,7 +50,7 @@
       <val name="value" val="{android.net.wifi.ScanResult.WIFI_STANDARD_UNKNOWN, android.net.wifi.ScanResult.WIFI_STANDARD_LEGACY, android.net.wifi.ScanResult.WIFI_STANDARD_11N, android.net.wifi.ScanResult.WIFI_STANDARD_11AC, android.net.wifi.ScanResult.WIFI_STANDARD_11AX}" />
     </annotation>
   </item>
-  <item name="android.net.wifi.WifiManager int addNetworkSuggestions(java.util.List<android.net.wifi.WifiNetworkSuggestion>)">
+  <item name="android.net.wifi.WifiManager int addNetworkSuggestions(java.util.List&lt;android.net.wifi.WifiNetworkSuggestion&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.CHANGE_WIFI_STATE&quot;" />
     </annotation>
@@ -68,7 +68,7 @@
       <val name="from" val="0" />
     </annotation>
   </item>
-  <item name="android.net.wifi.WifiManager int removeNetworkSuggestions(java.util.List<android.net.wifi.WifiNetworkSuggestion>)">
+  <item name="android.net.wifi.WifiManager int removeNetworkSuggestions(java.util.List&lt;android.net.wifi.WifiNetworkSuggestion&gt;)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.CHANGE_WIFI_STATE&quot;" />
     </annotation>

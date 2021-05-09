@@ -225,7 +225,7 @@
       <val name="value" val="&quot;android.permission.MODIFY_PHONE_STATE&quot;" />
     </annotation>
   </item>
-  <item name="android.telecom.TelecomManager void startConference(java.util.List<android.net.Uri>, android.os.Bundle)">
+  <item name="android.telecom.TelecomManager void startConference(java.util.List&lt;android.net.Uri&gt;, android.os.Bundle)">
     <annotation name="androidx.annotation.RequiresPermission">
       <val name="value" val="&quot;android.permission.CALL_PHONE&quot;" />
     </annotation>
